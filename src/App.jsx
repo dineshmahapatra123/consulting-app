@@ -365,7 +365,7 @@ function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
-    <Router>
+    <Router basename="/consulting-app">
       <div className="flex h-screen bg-slate-50 font-sans overflow-hidden">
         <Sidebar isOpen={isSidebarOpen} setIsOpen={setIsSidebarOpen} />
 
