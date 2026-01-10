@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link, useParams, useNavigate, u
 import { BookOpen, CheckCircle, ChevronRight, Copy, Menu, X, ArrowLeft, Lightbulb, Target, Briefcase, Zap, Star, TrendingUp, Users, ExternalLink, Bookmark } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { curriculumData } from './data/curriculumData';
+import logo from './assets/logo.png';
 
 const phases = [
   { id: 1, title: "Foundation & Strategy", days: "1-15", color: "from-blue-500 to-cyan-400", bg: "bg-blue-500", text: "text-blue-200" },
@@ -10,21 +11,13 @@ const phases = [
   { id: 3, title: "Marketing & Lead Gen", days: "31-45", color: "from-purple-500 to-pink-400", bg: "bg-purple-500", text: "text-purple-200" },
   { id: 4, title: "Sales & Delivery", days: "46-60", color: "from-emerald-500 to-teal-400", bg: "bg-emerald-500", text: "text-emerald-200" },
 ];
-
-function ScrollToTop() {
-  const { pathname } = useLocation();
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-  return null;
-}
-
+// ... ScrollToTop ...
 function Sidebar({ isOpen, setIsOpen }) {
   return (
     <div className={`fixed inset-y-0 left-0 z-50 w-72 bg-slate-900/95 backdrop-blur-xl border-r border-slate-800 text-white transform transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0 lg:static lg:inset-0 shadow-2xl`}>
       <div className="flex items-center justify-between h-20 px-8 bg-gradient-to-r from-slate-900 to-slate-800 border-b border-slate-700/50">
-        <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center font-bold text-lg">C</div>
+        <div className="flex items-center gap-3">
+          <img src={logo} alt="ConsultAccel Logo" className="w-8 h-8 rounded-lg object-cover" />
           <span className="text-xl font-bold tracking-tight text-white">Consult<span className="text-blue-400">Accel</span></span>
         </div>
         <button onClick={() => setIsOpen(false)} className="lg:hidden text-slate-400 hover:text-white transition-colors">
