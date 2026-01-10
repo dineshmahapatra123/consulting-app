@@ -134,7 +134,7 @@ function DayDetail() {
   const [copied, setCopied] = useState(false);
   const [activeTab, setActiveTab] = useState('lesson');
 
-  if (!data) return <div className="p-10 text-center">Day not found</div>;
+  if (!data) return <div className="p-10 text-center">Day not found for ID: {id}</div>;
   const phase = phases.find(p => p.id === data.phase);
 
   const copyPrompt = () => {
@@ -144,10 +144,7 @@ function DayDetail() {
   };
 
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
+    <div
       className="max-w-6xl mx-auto px-4 md:px-8 py-10"
     >
       <ScrollToTop />
@@ -357,7 +354,7 @@ function DayDetail() {
           Mark Complete & Next <ChevronRight className="w-4 h-4" />
         </button>
       </div>
-    </motion.div>
+    </div>
   );
 }
 
