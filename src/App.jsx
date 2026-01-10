@@ -381,12 +381,11 @@ function App() {
           </div>
 
           <main className="flex-1 overflow-y-auto scroll-smooth bg-slate-50">
-            <AnimatePresence mode="wait">
-              <Routes>
-                <Route path="/" element={<Dashboard />} />
-                <Route path="/day/:id" element={<DayDetail />} />
-              </Routes>
-            </AnimatePresence>
+            <Routes>
+              <Route path="/" element={<Dashboard />} />
+              <Route path="/day/:id" element={<DayDetail />} />
+              <Route path="*" element={<div className="p-10 text-center text-red-500">404: Page Not Found</div>} />
+            </Routes>
           </main>
         </div>
       </div>
