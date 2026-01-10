@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, useParams, useNavigate, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link, useParams, useNavigate, useLocation } from 'react-router-dom';
 import { BookOpen, CheckCircle, ChevronRight, Copy, Menu, X, ArrowLeft, Lightbulb, Target, Briefcase, Zap, Star, TrendingUp, Users, ExternalLink, Bookmark } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { curriculumData } from './data/curriculumData';
@@ -365,7 +365,7 @@ function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
-    <Router basename="/consulting-app">
+    <Router>
       <div className="flex h-screen bg-slate-50 font-sans overflow-hidden">
         <Sidebar isOpen={isSidebarOpen} setIsOpen={setIsSidebarOpen} />
 
