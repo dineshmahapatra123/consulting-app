@@ -11,7 +11,15 @@ const phases = [
   { id: 3, title: "Marketing & Lead Gen", days: "31-45", color: "from-purple-500 to-pink-400", bg: "bg-purple-500", text: "text-purple-200" },
   { id: 4, title: "Sales & Delivery", days: "46-60", color: "from-emerald-500 to-teal-400", bg: "bg-emerald-500", text: "text-emerald-200" },
 ];
-// ... ScrollToTop ...
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 function Sidebar({ isOpen, setIsOpen }) {
   return (
     <div className={`fixed inset-y-0 left-0 z-50 w-72 bg-slate-900/95 backdrop-blur-xl border-r border-slate-800 text-white transform transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0 lg:static lg:inset-0 shadow-2xl`}>
