@@ -5,15 +5,15 @@ export const curriculumData = [
         day: 1,
         phase: 1,
         title: "The Consultant's Mindset: Human Capital Valuation",
-        goal: "Shift from 'Laborer' to 'Capital Asset'. Determine your Economic Value Added (EVA).",
-        concept: "In the HBS framework, you are no longer selling labor (time); you are deploying an asset (methodology) to capture value. The amateur worries about 'imposter syndrome'; the professional obsess over 'Asset Utilization'. Your intellectual property is the asset; your time is merely the delivery cost.",
-        content: "Stop viewing yourself as an expense line item (SG&A). Position yourself as an investment in CapEx. Expenses are cut; Investments are nurtured. Your mindset must shift from 'Did I work enough hours?' to 'Did I generate enough yield for the client?'.",
-        illustration: "Consider a factory. The floor worker is paid for hours (Cost). The proprietary machine is leased for its output (Value). You are building the machine. Don't be the operator; be the architect of the value chain.",
+        goal: "Shift from 'Laborer' (selling time) to 'Capital Asset' (selling value). Determine your Economic Value Added (EVA).",
+        concept: "In the HBS framework, you must stop viewing yourself as an expense line item (SG&A - Selling, General & Admin). You must position yourself as CapEx (Capital Expenditure) - an investment that yields a return. The amateur worries about 'imposter syndrome' and asks 'Can I do this?'. The professional obsesses over 'Asset Utilization' and asks 'How do I maximize the yield of my expertise?'. Your intellectual property is the asset; your time is merely the delivery cost.",
+        content: "The core shift is understanding 'Opportunity Cost'. If a CEO spends 10 hours solving a problem you can solve in 1 hour, your value isn't your 1 hour; it's the CEO's 9 saved hours plus the speed of execution. You are not charging for the minutes; you are charging for the years of mastery that allow you to do it in minutes. \n\nStop saying: 'I charge $X per hour.' \nStart saying: 'I generate $Y in value for a fixed investment of $Z.'",
+        illustration: "Consider a Factory. \n- The Floor Worker is paid wages for hours worked (Cost). \n- The Machine is leased for its output capacity (Asset). \n- The Architect is paid for the blueprint that makes the factory possible (IP). \n\nAs a consultant, you are the Architect building the Machine. Do not revert to being the Floor Worker. You are selling the Blueprint (Strategy) and the Machine (System), not the sweat.",
         caseStudy: {
             title: "From 'Order Taker' to 'Strategic Partner'",
-            challenge: "Sarah, a senior graphic designer, left her agency job to freelance. She charged $50/hr and found herself rewriting endless revisions for demanding, low-paying clients. She was essentially an 'employee with no benefits'.",
-            solution: "She read 'The Elite Consulting Mind' and realized she wasn't selling design; she was selling 'Investor Trust'. She pivoted to 'Brand Consultant for FinTech Startups'.",
-            result: "Instead of 'I design logos', she pitched 'I help FinTechs build trust with investors through enterprise-grade branding'. She created a fixed-price 'Trust Audit' package for $5,000. She raised her effective rate to $250/hr and cut her client list from 10 bad ones to 3 great ones."
+            challenge: "Sarah, a senior graphic designer, left her agency job to freelance. She charged $60/hr and found herself rewriting endless revisions for demanding, low-paying clients. She was essentially an 'employee with no benefits' and zero leverage.",
+            solution: "She read 'The Elite Consulting Mind' and realized she wasn't selling 'Design'; she was selling 'Investor Trust'. She pivoted to 'Brand Consultant for Series-A FinTech Startups'.",
+            result: "Instead of 'I design logos', she pitched 'I help FinTechs secure Series B funding by building enterprise-grade trust'. She created a fixed-price 'Trust Architecture Audit' for $5,000. She raised her effective rate to $450/hr and cut her client list from 10 bad ones to 3 great ones."
         },
         readingList: [
             { type: "Book", title: "The Elite Consulting Mind", author: "Michael Zipursky", link: "Focuses on overcoming limiting beliefs and thinking like a business owner." },
@@ -21,166 +21,171 @@ export const curriculumData = [
             { type: "Article", title: "Two Crucial Mindsets to Start Your Own Consulting Business", author: "Tom Spencer", link: "Discusses 'humble confidence' and avoiding imposter syndrome." }
         ],
         tips: [
-            "Stop charging by the hour immediately. It caps your income.",
-            "You don't need 'permission' to be an expert. You just need a result.",
-            "Imposter syndrome is a sign you are growing. Embrace it."
+            "Stop charging by the hour immediately. It caps your income and misaligns incentives (clients want speed; hourly billing rewards slowness).",
+            "You don't need 'permission' to be an expert. You just need a result you can solve.",
+            "Imposter syndrome is a lagging indicator that you are pushing your boundaries. If you don't feel it, you aren't growing.",
+            "Say 'No' to the first client who treats you like an employee. It sets the standard."
         ],
-        action: "Write down your 'Financial Freedom Number' (monthly target) and your 'Lifestyle Non-Negotiables'.",
+        action: "1. Write down your 'Financial Freedom Number' (monthly net profit target). \n2. Define your 'Lifestyle Non-Negotiables' (e.g., 'I never work Fridays'). \n3. Audit your last 5 work interactions: Did you act like a Peer or a Subordinate?",
         prompt: "Act as a tough business coach. Interview me to identify my current limiting beliefs about money and expertise. Ask me 3 provocative questions to challenge my 'employee mindset' and feeling of needing permission."
     },
     {
         day: 2,
         phase: 1,
-        title: "Niche Discovery",
-        goal: "Identify the intersection of your skills and market demand.",
-        content: "You cannot serve everyone. 'If you talk to everyone, you talk to no one.' A niche is defined by WHO you help and WHAT problem you solve. Generalists get paid commodities; specialists get paid premiums.",
-        concept: "The 'Blue Ocean Strategy'. Don't swim in the bloody shark-filled waters of general consulting. Find a blue ocean where competition is irrelevant because you are so specific.",
-        illustration: "A 'Fitness Coach' competes with millions of YouTubers. A 'Fitness Coach for Post-Partum Moms suffering from Back Pain' has a dedicated, desperate market willing to pay for a specific cure.",
+        title: "Niche Discovery: The Specialist's Premium",
+        goal: "Identify the 'Bleeding Neck' problem where your skills meet market liquidity.",
+        content: "You cannot serve everyone. 'If you talk to everyone, you talk to no one.' A niche is defined by TWO coordinates: WHO you help (Demographics/Psychographics) and WHAT expensive problem you solve (outcome). Generalists get paid commodities; specialists get paid premiums. The market pays for depth, not breadth.",
+        concept: "The 'Blue Ocean Strategy'. Don't swim in the bloody, shark-filled waters of general consulting (Red Ocean). Find a Blue Ocean where competition is irrelevant because you are so specific that no one else operates there.",
+        illustration: "The medical analogy: \n- A General Practitioner (GP) sees everyone, knows a little about everything, and makes $150k. \n- A Brain Surgeon focuses on one organ, one problem, and makes $800k. \n\nBe the Neurosurgeon of your industry. Don't be 'A Marketer'; be 'The Retention Specialist for Subscription Box Companies'.",
         caseStudy: {
             title: "CannDelta: Pivoting for Growth",
-            challenge: "CannDelta started as a general cannabis consulting firm in Canada. As the market saturated and cooled ('The Green Rush' ended), they faced declining leads.",
-            solution: "Founders Dr. Sherry Boodram and Dr. Lucas McCann identified a more complex, high-barrier market: The US Market and specific regulatory compliance.",
-            result: "They pivoted to 'Regulatory Compliance for Cross-Border Cannabis Trade'. By narrowing their focus to the most painful, complex problem, they became the go-to experts, bypassing general competitors."
+            challenge: "CannDelta started as a general cannabis consulting firm in Canada. As the market saturated and cooled ('The Green Rush' ended), they faced declining leads and price wars.",
+            solution: "Founders Dr. Boodram and Dr. McCann analyzed the market and identified a more complex, high-barrier problem: The US Market Expansion and specific regulatory compliance for cross-border trade.",
+            result: "They pivoted to 'Regulatory Compliance for Cross-Border Cannabis Trade'. By narrowing their focus to the most painful, complex problem (Jail/Fine avoidance), they became the uncontested experts, bypassing general competitors and commanding premium fees."
         },
         readingList: [
             { type: "Book", title: "Blue Ocean Strategy", author: "W. Chan Kim", link: "Creating uncontested market space and making the competition irrelevant." },
             { type: "Article", title: "The Ultimate Guide to Identifying Your Consulting Niche", author: "Melisa Liberman", link: "A step-by-step guide to finding the intersection of joy, skill, and market demand." }
         ],
         tips: [
-            "A good niche feels 'scary' small at first.",
-            "Look for problems that are 'expensive' for companies to leave unsolved.",
-            "Your niche can be an industry (Dental) or a problem (Employee Churn)."
+            "A good niche feels 'scary' small at first. That is a sign you are doing it right.",
+            "Look for problems that are 'expensive' for companies to leave unsolved (Cost of Inaction).",
+            "Your niche can be an Industry (Dental), a Role (CTOs), or a Problem (Employee Churn). The best niches combine all three.",
+            "Follow the money: Target industries that are growing or in crisis (both spend money)."
         ],
-        action: "List your top 3 hard skills and top 3 industries you have access to. Look for overlaps.",
+        action: "List your top 3 Hard Skills (e.g., Python, Copywriting, Tax Law) and top 3 Industries you have access/affinity to (e.g., Real Estate, Crypto, SaaS). Look for the 'Expensive Overlap'.",
         prompt: "Here are my skills: [Insert Skills]. Here are industries I know: [Insert Industries]. Generate 5 specific, high-value consulting niche ideas that combine these, focusing on urgent business problems (Bleeding Neck pain points)."
     },
     {
         day: 3,
         phase: 1,
-        title: "Niche Refinement (The Avatar)",
-        goal: "Define your ideal client avatar in extreme detail.",
-        concept: "Deep specialization allows you to charge more. You need to know your client better than they know themselves. You should know what they read, where they hang out, and what keeps them up at night.",
-        content: "The 'Inch-Wide, Mile-Deep' strategy. Instead of digging 100 shallow holes, dig one deep oil well. Your marketing copy should make your prospect say, 'He's reading my mind'.",
-        illustration: "If you sell 'Sales Training', you are a commodity. If you sell 'Sales Training for Introverted Engineers turning into Technical Account Managers', you have a monopoly.",
+        title: "Niche Refinement: The Avatar Profile",
+        goal: "Define your ideal client avatar in extreme, microscopic detail.",
+        concept: "Deep specialization allows you to charge more because you reduce the client's 'Risk of Hiring'. If you know their specific jargon, fears, and KPIs, they trust that you can solve their specific problem. You need to know your client better than they know themselves.",
+        content: "The 'Inch-Wide, Mile-Deep' strategy. Instead of digging 100 shallow holes, dig one deep oil well. Your marketing copy should make your prospect say, 'It's like he's reading my diary'. \n\nKey Avatar attributes: \n1. Title (Who signs the check?) \n2. KPI (What number are they fired for missing?) \n3. Watering Holes (Where do they hang out?) \n4. The '3 AM' Fear (What keeps them awake?)",
+        illustration: "If you sell 'Sales Training', you are a commodity competing with free YouTube videos. \nIf you sell 'Sales Training for Introverted Engineers turning into Technical Account Managers', you have a monopoly. You can charge 10x because the solution is tailored to their specific psychology.",
         caseStudy: {
             title: "Speaking the Language of HVAC",
-            challenge: "Marketing consultant Elena tried helping 'Small Businesses'. She got tire-kickers and cheap clients who didn't understand marketing.",
-            solution: "She narrowed her niche to 'HVAC Companies with $1M-5M Revenue'. She learned their specific jargon (seasonality, dispatch software issues, finding reliable techs).",
-            result: "Her sales conversion tripled because she 'spoke their language'. She wasn't a 'marketer'; she was an 'HVAC Growth Partner'. She could charge $10k for a system that general marketers charged $1k for."
+            challenge: "Marketing consultant Elena tried helping 'Small Businesses'. She got tire-kickers, cheap clients, and 'let me ask my wife' objections.",
+            solution: "She narrowed her niche to 'HVAC Companies with $1M-5M Revenue'. She learned their specific jargon (seasonality, dispatch software issues, 'reliable techs', SEER ratings).",
+            result: "Her sales conversion tripled because she 'spoke their language'. She wasn't a 'marketer'; she was an 'HVAC Growth Partner'. She could charge $10k for a system that general marketers charged $1k for, simply because she positioned it as an 'HVAC System'."
         },
         readingList: [
             { type: "Book", title: "Building a StoryBrand", author: "Donald Miller", link: "Clarifying your message so customers listen." },
             { type: "Resource", title: "HubSpot's Buyer Persona Templates", author: "HubSpot", link: "Practical templates to fill out your avatar's details." }
         ],
         tips: [
-            "Give your avatar a name (e.g., 'Director Dan').",
-            "Focus on the 'decision maker', not the user. Who signs the check?",
-            "Download the 'Digital Footprint' of your avatar: What podcasts do they listen to?"
+            "Give your avatar a name (e.g., 'Director Dan' or 'Founder Fiona').",
+            "Focus on the 'Economic Buyer' (the decision maker), not the user. HR Managers love training; CFOs sign the check.",
+            "Download the 'Digital Footprint' of your avatar: What podcasts do they listen to? What Subreddits do they read?",
+            "Use their exact slang. If they say 'turnover', don't say 'attrition'."
         ],
-        action: "Create a 'Client Avatar Persona' document. Give them a name, age, job title, and biggest fear.",
+        action: "Create a 'Client Avatar Persona' document. Give them a name, age, job title, salary, and biggest fear. Find 5 real LinkedIn profiles that match this alias.",
         prompt: "Create a detailed persona for my target client in the [Insert Niche] industry. Include their daily frustrations, reading habits, KPIs they are measured by, and the exact words/slang they use to describe their problems."
     },
     {
         day: 4,
         phase: 1,
-        title: "Competitor Analysis",
-        goal: "Understand the landscape to differentiate yourself.",
-        concept: "Don't copy competitors; analyze them to find gaps. Look for 'underserved' segments or 'overcomplicated' solutions you can simplify. In consulting, your biggest competitor is often 'doing nothing' or 'internal hires'.",
-        content: "Analyze the 'Big Three': 1. The Big Firms (expensive, slow), 2. The Boutiques (specialized, expensive), 3. The Freelancers (cheap, unreliable). Find the 'Goldilocks Zone'.",
-        illustration: "If every competitor is offering 'Monthly Retainers' with long contracts, the market might be desperate for a 'Done-In-A-Day' intensive or a 'One-Time Audit'.",
+        title: "Competitor Analysis: Finding the Void",
+        goal: "Analyze the competitive landscape to differentiate, not to copy.",
+        concept: "Don't copy competitors; analyze them to find gaps. In consulting, your biggest competitor is rarely another firm; it is usually 'Status Quo' (Doing Nothing) or 'Internal Hire' (Do it ourselves). \n\nLook for the 'Void': What is everyone else ignoring? Are they all 'High Price/Slow'? Be 'Mid Price/Fast'. Are they all 'Done For You'? Be 'Done With You'.",
+        content: "Analyze the 'Big Three' Competitor Types: \n1. The Big Firms (McKinsey/Deloitte): Safe, Expensive, Slow, Generic. \n2. The Boutiques: Highly Specialized, Expensive, Expert. \n3. The Freelancers (Upwork): Cheap, Unreliable, Task-focused. \n\nFind the 'Goldilocks Zone' where you offer Boutique expertise with the agility of a freelancer.",
+        illustration: "If every competitor is offering 'Monthly Retainers' with long contracts (Risk High), the market might be desperate for a 'Done-In-A-Day' intensive or a 'One-Time Audit' (Risk Low). Innovation often comes from changing the *business model*, not the service.",
         caseStudy: {
             title: "Winning with Speed",
-            challenge: "In the crowded 'Sales Training' market, everyone sold long, 6-month courses. Clients were busy and didn't have time.",
-            solution: "A consultant launched 'The 1-Hour Sales Script Workshop'. He targeted the specific gap: Speed.",
-            result: "He captured the market segment that was 'too busy for courses'. He charged a premium for speed ($1,000 for 1 hour) and sold volume, effectively differentiating from the 'comprehensive' competitors."
+            challenge: "In the crowded 'Sales Training' market, everyone sold long, 6-month academies. Clients were busy, overwhelmed, and dropped out.",
+            solution: "A consultant launched 'The 1-Hour Sales Script Workshop'. He targeted the specific gap: Speed and Implementation.",
+            result: "He captured the market segment that was 'too busy for courses'. He charged a premium for speed ($1,000 for 1 hour) and sold volume, effectively differentiating from the 'comprehensive' competitors who sold 'learning' instead of 'completed output'."
         },
         readingList: [
             { type: "Book", title: "Blue Ocean Strategy", author: "Remi Mauborgne", link: "Tools for competitor landscape mapping." },
             { type: "Article", title: "How to Conduct a Competitive Analysis", author: "Shopify/HBR", link: "Tactical frameworks for analyzing competitors." }
         ],
         tips: [
-            "Read the 3-star reviews of your competitors. They contain the truth.",
-            "Look for 'Zombie' competitors: Companies that exist but haven't posted in 6 months.",
-            "Don't worry if there are competitors; it proves there is a market."
+            "Read the 3-star reviews of your competitors. They contain the truth about what is missing.",
+            "Look for 'Zombie' competitors: Companies that exist but haven't posted in 6 months. Their clients are looking for a new home.",
+            "Don't worry if there are competitors; it proves there is a market (willingness to pay). Empty markets are usually empty for a reason (no money).",
+            "Sign up for their newsletters to see how they sell."
         ],
-        action: "Identify 3 direct competitors. Analyze their pricing, guarantees, and complaints.",
+        action: "Identify 3 direct competitors. Create a matrix comparing their: Core Offer, Price (if known), Guarantee, and Weakness. Find one thing they ALL do, and decide to do the opposite.",
         prompt: "Analyze these 3 competitor websites: [Insert URLs]. Create a table identifying their: 1. Core Promise, 2. Target Audience, 3. Pricing Model (if visible), and 4. Weakness/Gap I can exploit."
     },
     {
         day: 5,
         phase: 1,
-        title: "Strategic Positioning (Porter's Strategy)",
-        goal: "Define your Competitive Advantage through specific trade-offs.",
-        concept: "Michael Porter defines strategy as 'choosing what NOT to do'. Your UVP is not a slogan; it is a set of strategic trade-offs. You cannot be 'High Service' AND 'Low Cost'. You must choose a differentiation focus. If you are not functionally different, you will be forced to compete on price (a race to the bottom).",
-        content: "A robust UVP (Unique Value Proposition) answers the 'Only' question: 'We are the ONLY consulting firm that [Action] for [Segment] by [Mechanism].' If a competitor can claim the same, you have no moat. Build a 'Moat' around your IP.",
-        illustration: "Southwest Airlines didn't just say 'Cheaper flights'. They traded off meals, assigned seats, and hub-and-spoke routes to create a localized monopoly on efficiency. What are you trading off? (e.g., 'We don't do implementation, we only do strategy' or vice versa).",
+        title: "Strategic Positioning: The UVP & The Moat",
+        goal: "Define your Unique Value Proposition (UVP) through specific trade-offs.",
+        concept: "Michael Porter defines strategy as 'choosing what NOT to do'. Your UVP is not a marketing slogan; it is a set of strategic trade-offs. You cannot be 'High Service' AND 'Low Cost'. You most choose a differentiation focus. \n\nThe 'Moat': How do you protect your margins? Brand? IP? Proprietary Data? Network?",
+        content: "A robust UVP answers the 'Only' question: 'We are the ONLY consulting firm that [Action] for [Segment] by [Mechanism].' \n\nIf a competitor can claim the same, you have no moat. You must be Functionally Distinct. \n\nTypes of Positioning: \n1. Methodology (We use the X System) \n2. Vertical (We only serve Dentists) \n3. Outcome (We only get paid if you win)",
+        illustration: "Southwest Airlines didn't just market 'Cheaper flights'. They structurally traded off meals, assigned seats, and hub-and-spoke routes to create a localized monopoly on efficiency. \n\nWhat are you trading off? Example: 'We are expensive, but we are fast.' or 'We don't implement, we only strategize.'",
         caseStudy: {
             title: "The 'Risk-Free' Pricing Consultant",
-            challenge: "Software Pricing Partners wanted to stand out in a dry market.",
+            challenge: "Software Pricing Partners wanted to stand out in a dry, academic market.",
             solution: "They crafted a UVP around risk: 'We help you develop innovative pricing strategies that delight customers and derange competitors while minimizing risk at every stage.'",
-            result: "By focusing on 'minimizing risk' (a major fear for software execs changing prices), they moved from being a 'cost' to being an 'insurance policy' for the pricing change, commanding $50k+ engagements."
+            result: "By focusing on 'minimizing risk' (a major fear for software execs changing prices), they moved from being a 'cost' to being an 'insurance policy' for the pricing change. They could command $50k+ engagements because the cost of getting pricing wrong was $5M."
         },
         readingList: [
-            { type: "Book", title: "Good Strategy Bad Strategy", author: "Richard Rumelt", link: "Understanding the difference between fluff and flexible strategy." },
+            { type: "Book", title: "Good Strategy Bad Strategy", author: "Richard Rumelt", link: "Understanding the difference between 'fluff' (goal setting) and 'strategy' (diagnosing the challenge)." },
             { type: "Book", title: "Made to Stick", author: "Chip & Dan Heath", link: "Why some ideas survive and others die." }
         ],
         tips: [
-            "Test your UVP on a 10-year-old. If they don't get it, it's too complex.",
-            "Avoid jargon like 'synergy', 'paradigm', 'holistic' unless you are mocking them.",
-            "Your UVP will evolve. Get version 1.0 out today."
+            "Test your UVP on a 10-year-old. If they don't get it, it's too complex. Simplify.",
+            "Avoid jargon like 'synergy', 'paradigm', 'holistic', 'end-to-end' unless you are mocking them.",
+            "Your UVP will evolve. Get version 1.0 out today. It serves as your compass.",
+            "Polarize: Your UVP should attract your ideal client and repel the wrong client."
         ],
-        action: "Draft your UVP statement. Iterate it 10 times until it fits on a sticky note.",
+        action: "Draft your UVP statement using the template: 'I help [Target Market] solve [Expensive Problem] using [Unique Mechanism].' Iterate it 10 times until it fits on a sticky note.",
         prompt: "Help me refine my UVP. My audience is [Audience], their problem is [Problem], and my solution is [Solution]. Generate 5 punchy, high-converting UVP variations using the 'XYZ' formula. Make them sound expensive."
     },
     {
         day: 6,
         phase: 1,
-        title: "Market Research: The Discovery",
-        goal: "Validate your hypothesis with real human data.",
-        concept: "Get out of the building. You cannot guess what clients want. You must hear it from them. This is not sales; this is 'Data Gathering'.",
-        content: "Use 'The Mom Test'. Don't ask 'Is my idea good?' because people will lie to be nice. Ask 'When was the last time you encountered this problem?' and 'How much did it cost you?'.",
-        illustration: "Asking 'Would you pay for an app that tracks sleep?' -> Everyone says Yes. Asking 'Have you searched for a sleep app in the last week?' -> Real data.",
+        title: "Market Research: The Discovery Phase",
+        goal: "Validate your hypothesis with real human data. Stop Guessing, Start Asking.",
+        concept: "The #1 reason startups/consultancies fail is 'No Market Need'. You cannot guess what clients want sitting in your room. You must get 'Out of the Building'. This is not sales; this is 'Data Gathering'. If you try to sell too early, you shut down the feedback loop.",
+        content: "Use 'The Mom Test' methodology. Do not ask 'Is my idea good?' because people lie to be nice. Ask 'Behavioral Questions' about the past. \n\nBad Question: 'Would you pay for X?' (Opinions are free). \nGood Question: 'When was the last time you tried to solve this problem? How much did you spend?' (Facts are expensive).",
+        illustration: "If you ask 100 people 'Do you want lose weight?', 100 say Yes. If you ask 'Did you go to the gym yesterday?', 5 say Yes. Build your business on the 5, not the 100.",
         caseStudy: {
-            title: "Saving Months of Work",
-            challenge: "Tech consultant Ravi thought lawyers wanted 'AI Contract Review'.",
-            solution: "He conducted 10 'Coffee Chats' with partners. He found they didn't trust AI yet.",
-            result: "However, 8 out of 10 complained about 'Searching old emails for precedents'. He pivoted to building a 'Better Email Search for Firms' service and sold 3 contracts before building anything. He saved 6 months of building the wrong AI tool."
+            title: "Saving 6 Months with Coffee Chats",
+            challenge: "Tech consultant Ravi thought lawyers wanted 'AI Contract Review Software'. He was about to spend 6 months building it.",
+            solution: "He conducted 15 'Coffee Chats' with law partners. He found they didn't trust AI yet and feared liability.",
+            result: "However, 12 out of 15 complained about 'Searching old emails for precedents'. He pivoted to building a 'Better Email Search for Firms' service. He sold 3 contracts before writing a line of code. He saved 6 months of building the wrong thing."
         },
         readingList: [
-            { type: "Book", title: "The Mom Test", author: "Rob Fitzpatrick", link: "How to talk to customers & learn if your business is a good idea when everyone is lying to you." },
+            { type: "Book", title: "The Mom Test", author: "Rob Fitzpatrick", link: "How to talk to customers & learn if your business is a good idea." },
             { type: "Book", title: "Ask", author: "Ryan Levesque", link: "The counter-intuitive online method to discover what your market wants to buy." }
         ],
         tips: [
-            "Record these calls (with permission). You need their exact words.",
-            "Do not pitch. If you pitch, the learning stops.",
-            "Ask 'What is the hardest part about [Problem]?'"
+            "Record these calls (with permission). You need their exact words for your copywriting later.",
+            "Do not pitch. If you pitch, the learning stops and they put up defensive walls.",
+            "Ask 'What is the hardest part about [Problem]?' and then shut up for 60 seconds."
         ],
-        action: "Reach out to 5 people in your niche for a 15-min 'Research Chat' (No selling!).",
+        action: "Reach out to 5 people in your niche for a 15-min 'Research Chat'. Script: 'I'm researching the state of [Industry] and I'd love your expert opinion on X. I have nothing to sell.'",
         prompt: "Draft a polite, non-salesy LinkedIn message to a [Target Role] asking for 15 minutes of advice to research challenges in their industry. Make it clear I have nothing to sell and value their expertise."
     },
     {
         day: 7,
         phase: 1,
-        title: "Analyzing Research Data",
-        goal: "Turn interview notes into insights.",
-        concept: "Look for patterns. Specific words used repeatedly ('overwhelmed', 'bottleneck', 'black box') are your marketing gold. Use their words in your copy.",
-        content: "If your clients say 'I feel like I'm herding cats', your website headline should be 'Stop Herding Cats'. This creates instant resonance.",
-        illustration: "A forensic analysis of language. You are looking for value triggers.",
+        title: "Analyzing Research Data: Finding the Resonance",
+        goal: "Turn interview notes into 'Money Words'.",
+        concept: "Marketing is not about being creative; it's about being a mirror. You want to reflect their problems back to them using their own words. Look for Patterns in your research notes. \n\nSpecific words used repeatedly ('overwhelmed', 'bottleneck', 'black box') are your marketing gold.",
+        content: "If 5 clients say 'I feel like I'm herding cats', your website headline should be 'Stop Herding Cats'. This creates instant resonance. They think: 'Wow, he gets me'. \n\nCategorize findings into: \n1. Pains (Hell) \n2. Desires (Heaven) \n3. Obstacles (Why they haven't fixed it yet).",
+        illustration: "Forensic Linguistics: You are looking for the 'Emotional Trigger Words'. 'Low Revenue' is a fact. 'Scared of payroll' is an emotion. Sell to the emotion.",
         caseStudy: {
-            title: "The Million Dollar Headline",
-            challenge: "A fitness info-product wasn't converting.",
+            title: "The Million Dollar Headline Change",
+            challenge: "A fitness info-product for new moms was failing. Headline: 'Lose Weight Fast'.",
             solution: "The owner analyzed 500 survey responses. He noticed women kept saying 'I want to get my body back' after pregnancy.",
-            result: "He changed the headline from 'Lose Weight Fast' to 'Get Your Body Back'. Sales increased 400% overnight because he matched the internal monologue of the customer."
+            result: "He changed the headline to 'Get Your Body Back'. Sales increased 400% overnight. He didn't change the product; he changed the language to match the internal monologue of the customer."
         },
         readingList: [
             { type: "Article", title: "Review Mining", author: "Joanna Wiebe", link: "How to find high-converting copy in Amazon reviews." }
         ],
         tips: [
-            "Create a 'Voice of Customer' document.",
+            "Create a 'Voice of Customer' (VoC) document.",
             "Highlight 'Pain' words in Red and 'Desire' words in Green.",
-            "Look for the 'Trigger Event'. What happens right before they look for a solution?"
+            "Look for the 'Trigger Event'. What happens right before they look for a solution? (e.g., A fine? A resignation? A bad quarter?)"
         ],
-        action: "Review your notes. Highlight the top 3 'Bleeding Neck' problems mentioned.",
+        action: "Review your notes. Highlight the top 3 'Bleeding Neck' problems mentioned. Create a 'Problem/Language' map.",
         prompt: "I will paste notes from my client interviews. Extract the top 5 'Pain Points' and the specific emotional words they used to describe them. Turn these into 5 catchy email subject lines."
     },
     // ... (Repeating pattern for other days, but compressed for this file update to keep within limits. 
@@ -188,20 +193,25 @@ export const curriculumData = [
     {
         day: 8,
         phase: 1,
-        title: "Service Definition",
-        goal: "Decide on your delivery vehicle.",
-        concept: "Consulting is flexible. Dimensions: Done-For-You (Agency style), Done-With-You (Coaching/Advisory), Do-It-Yourself (Course/Product).",
-        content: "Your delivery model dictates your lifestyle. DFY is hard to scale but easy to sell. DIY is hard to sell but infinite scale. Advisory is the sweet spot for many: High margin, low overhead.",
+        title: "Service Definition: The Delivery Vehicle",
+        goal: "Decide on your delivery vehicle (The Container).",
+        concept: "Consulting is flexible. Dimensions: \n1. Done-For-You (Agency style - High Price, High Effort) \n2. Done-With-You (Coaching/Advisory - Med Price, Med Effort) \n3. Do-It-Yourself (Course/Product - Low Price, Low Effort). \n\nAdvisory is often the sweet spot: High margin, low overhead, high impact.",
+        content: "Your delivery model dictates your lifestyle. \n- DFY is hard to scale but easy to sell. \n- DIY is hard to sell but infinite scale. \n- DWY is the balance. \n\nStandardize the 'Process' even if the 'Content' changes. You are selling the methodology.",
+        illustration: "The Sherpa vs. The Porter. \n- The Porter (DFY) carries your bag. He gets paid for labor. \n- The Sherpa (Advisory) guides you up the mountain. He gets paid for expertise and survival. \n\nBe the Sherpa.",
         caseStudy: {
             title: "The Advisory Switch",
-            challenge: "Maria was a copywriter (DFY). She was burned out writing 20 pages a week.",
-            solution: "She realized clients mostly needed strategy, not words. She switched to 'Copy Audits' (Advisory).",
-            result: "She now charges $2,000 for a video audit dealing with strategy. She works 1 hour instead of 10. Her effective hourly rate skyrocketed."
+            challenge: "Maria was a copywriter (DFY). She was burned out writing 20 pages a week for clients who treated her like a typist.",
+            solution: "She realized clients mostly needed strategy, not words. She switched to 'Copy Strategy Audits' (Advisory). She reviewed their work and gave a roadmap.",
+            result: "She now charges $2,000 for a 60-minute video audit + strategy. She works 1 hour instead of 10. Her effective hourly rate skyrocketed 10x. Clients respected her more as a Strategist."
         },
         readingList: [
             { type: "Book", title: "Million Dollar Consulting", author: "Alan Weiss", link: "Strategies for value-based delivery." }
         ],
-        tips: ["Start with DFY to learn, move to Advisory to earn.", "Don't build a course until you've sold the service 10 times."],
+        tips: [
+            "Start with DFY to learn the nuances, then move to Advisory to earn the time back.",
+            "Don't build a course (DIY) until you've sold the service 10 times manually. You don't know the curriculum yet.",
+            "Define 'What is NOT included' clearly to avoid scope creep."
+        ],
         action: "Draft a 1-page 'Scope of Work' bullet list for your primary delivery mode. Define exactly what is IN and what is OUT of scope.",
         prompt: "Compare 'Done-For-You' vs 'Advisory' services for my niche [Insert Niche]. Then, draft a 'Scope of Work' skeleton for the Advisory model."
     },
@@ -209,40 +219,53 @@ export const curriculumData = [
         day: 9,
         phase: 1,
         title: "Pricing Strategy: Economic Value to Customer (EVC)",
-        goal: "Price based on Willingness to Pay (WTP) and Value Capture.",
-        concept: "Pricing is the #1 driver of profitability. Ignore 'Cost-Plus'. Adopt 'EVC' (Economic Value to Customer). If your solution saves a client $1M, and you charge $50k, you are capturing only 5% of the value created. That is irrational. You must price to capture 10-20% of the Upside.",
-        content: "The psychology of pricing: High fees signal competence (Veblen Good effect). Low fees signal risk. In B2B, 'cheap' is often disqualified because it implies 'unsophisticated'. Your fee is a tool to filter out non-serious buyers.",
+        goal: "Price based on Value, not Cost. Escape the 'Hourly' trap.",
+        concept: "Pricing is the #1 driver of profitability. Ignore 'Cost-Plus' (My time + 20%). Adopt 'Ref. Value' or 'EVC'. \nIf your solution saves a client $1M, and you charge $50k, you are capturing only 5% of the value created. That is irrational. You must price to capture 10-20% of the Upside.",
+        content: "The psychology of pricing: High fees signal competence (Veblen Good effect). Low fees signal risk. In B2B, 'cheap' is often disqualified because it implies 'unsophisticated', 'desperate', or 'junior'. Your fee is a tool to filter out non-serious buyers.",
+        illustration: "Imagine a heart surgeon charging $20/hr. You wouldn't think 'What a deal!'; you would think 'What is wrong with him?'. Price is a proxy for quality in intangible services.",
         caseStudy: {
-            title: "The $50k Project",
-            challenge: "A dev shop charged $150/hr. They were seen as 'hands'.",
-            solution: "They started bidding fixed project fees based on value. A client needed a trading app to make $10M/year.",
-            result: "They bid $50,000. It was a bargain for the client (0.5% of revenue). If they billed hourly, it would have been $15k. They tripled revenue by changing the pricing model."
+            title: "The $50k Fixed Fee",
+            challenge: "A dev shop charged $150/hr. They were seen as 'expensive hands'. They were fighting for hours.",
+            solution: "They started bidding fixed project fees based on value. A trading firm needed an app to make $10M/year.",
+            result: "They bid $50,000 fixed. It was a bargain for the client (0.5% of revenue). If they billed hourly, it would have been $15k. They tripled revenue by changing the pricing model and owning the risk."
         },
         readingList: [
             { type: "Book", title: "Implementing Value Pricing", author: "Ronald Baker", link: "The definitive guide to ditching the billable hour." }
         ],
-        tips: ["Never put prices on your website for custom consulting.", "When you say the price, shut up. The next person to speak loses."],
-        action: "Determine your 'Minimum Engagement Level' (e.g., $3,000).",
+        tips: [
+            "Never put prices on your website for custom consulting. It prevents value anchoring.",
+            "When you say the price, shut up. The next person to speak loses.",
+            "Provide 3 Options: Good, Better, Best. 60% will pick the middle.",
+            "Always get payment upfront (or 50% deposit)."
+        ],
+        action: "Determine your 'Minimum Engagement Level' (e.g., 'I don't turn on my computer for less than $3,000').",
         prompt: "Help me calculate the ROI of my service. If I solve [Problem] for a client, how much money might they save or make? Use conservative estimates to justify a $[Price] fee."
     },
     {
         day: 10,
         phase: 1,
-        title: "The Minimum Viable Offer (MVO)",
-        goal: "Package your service into a product-like offering.",
-        concept: "Services are intangible and scary to buy. 'Productize' them. Give it a name, a fixed scope, and a fixed price.",
+        title: "The Minimum Viable Offer (MVO): Packaging",
+        goal: "Package your service into a product-like offering to reduce friction.",
+        concept: "Services are intangible and scary to buy. 'Productize' them. Give it a Name, a Fixed Scope, a Fixed Timeline, and a Fixed Price. \nMake it 'Buyable'.",
+        content: "The MVO allows you to sell the same thing twice. If every project is custom, you are reinventing the wheel. \n\nStandard MVO Structure: \n- Name: 'The 90-Day Revenue Sprint' \n- Promise: 'Add $100k to your pipeline' \n- Process: 'Our 5-step outbound system' \n- Price: '$5,000' \n- Guarantee: 'Or we work for free'.",
+        illustration: "Ordering off a menu vs. asking a chef to 'cook something'. A menu (Productized Service) is easier to buy. A custom request requires trust, negotiation, and cognitive load.",
         caseStudy: {
             title: "Productized Service Success",
-            challenge: "Logistics Expert Tom offered 'General Consulting'. Clients didn't know what they would get.",
-            solution: "He packaged it as 'The Warehouse Efficiency Audit'. It had 3 steps, took 2 weeks, and cost $5,000.",
-            result: "It became an easy 'yes' for clients because the risk was bounded. He sold 5 in the first month."
+            challenge: "Logistics Expert Tom offered 'General Supply Chain Consulting'. Clients didn't know what they would get or how much it would cost.",
+            solution: "He packaged it as 'The Warehouse Efficiency Audit'. It had 3 steps, took exactly 2 weeks, and cost $5,000.",
+            result: "It became an easy 'yes' for clients because the risk was bounded. He sold 5 in the first month because he made it easy to buy.",
+            link: "https://www.productizedservices.com/"
         },
         readingList: [
             { type: "Book", title: "Built to Sell", author: "John Warrillow", link: "Creating a business that can thrive without you." }
         ],
-        tips: ["Give your offering a name (e.g., The 90-Day Sprint).", "Define clear deliverables: 'You will get a PDF report and a 60-min strategy call'."],
-        action: "Outline your MVO: Name, 3 Core Deliverables, Timeline, Price.",
-        prompt: "Generate 5 compelling names for my consulting package that sounds like a product."
+        tips: [
+            "Give your offering a catchy name (e.g., 'The Accelerator', 'The Blueprint').",
+            "Define clear deliverables: 'You will get a PDF report and a 60-min strategy call'.",
+            "Create a 'One-Pager' (PDF) that describes this offer visually."
+        ],
+        action: "Outline your MVO: Name, 3 Core Deliverables, Timeline, Price. Make a mock-up invoice.",
+        prompt: "Generate 5 compelling names for my consulting package that sounds like a product. It helps [Target Audience] achieve [Outcome]."
     },
     {
         day: 11,
