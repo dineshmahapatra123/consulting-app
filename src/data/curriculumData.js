@@ -522,214 +522,226 @@ export const curriculumData = [
     {
         day: 21,
         phase: 2,
-        title: "The Risk Reversal (Guarantees)",
-        goal: "Remove the fear of buying.",
-        concept: "Clients are afraid of looking stupid. A strong guarantee transfers the risk from them to you. It increases conversion rates significantly.",
-        content: "Types: 1. Unconditional (Money Back). 2. Conditional (If you do the work and don't see X...). 3. Service Level (I will work for free until X...).",
-        illustration: "Domino's '30 mins or free' built an empire. What is your version? 'Rank on Page 1 or we work for free'?",
+        title: "The Risk Reversal: 3-Level Guarantees",
+        goal: "Remove the fear of buying. Make 'No' the risky choice.",
+        concept: "Clients are not afraid of the price; they are afraid of feeling stupid for making a bad decision. A strong guarantee transfers the risk from them to you. It increases conversion rates significantly (often 2-3x).",
+        content: "Types of Guarantees: \n1. Unconditional: '100% money back if you aren't happy.' (Best for low ticket). \n2. Conditional: 'If you implement X and Y and still don't grow, we refund you.' (Best for coaching/strategy). \n3. Service Level: 'We work for free until we hit the metric.' (Best for reliable done-for-you services).",
+        illustration: "Domino's '30 minutes or it's free' built an empire. It wasn't about the pizza; it was about the certainty of lunch. What is your '30 minutes'?",
         caseStudy: {
             title: "The 110% Guarantee",
-            challenge: "A younger consultant couldn't get enterprises to trust him.",
-            solution: "He offered a 'Double Your ROI' guarantee. 'If this workshop doesn't generate ideas worth 2x my fee, I'll refund you.'",
-            result: "He never had to refund money. The guarantee signaled such confidence that enterprises felt safe signing the contract."
+            challenge: "A younger consultant couldn't get enterprises to trust him with a $20k contract.",
+            solution: "He offered a 'Double Your ROI' guarantee. 'If this workshop doesn't generate ideas worth at least 2x my fee in 30 days, I'll refund you 100% + $1,000 for wasting your time.'",
+            result: "He never had to refund money. The guarantee signaled such extreme confidence that enterprises felt safe signing. His close rate went from 10% to 50%."
         },
         readingList: [
             { type: "Article", title: "The Power of Guarantees", author: "Harvard Business Review", link: "How guarantees impact service quality and sales." }
         ],
         tips: [
-            "A conditional guarantee protects you from lazy clients.",
-            "The stronger the guarantee, the higher the sales.",
-            "Don't worry about refunds. If your service is good, they are rare."
+            "A conditional guarantee protects you from lazy clients who don't do the work.",
+            "The stronger the guarantee, the higher the sales. The 'refund rate' usually stays low.",
+            "Don't worry about refunds. If your service is good, they are rare (usually <3%)."
         ],
-        action: "Draft a bold guarantee statement.",
-        prompt: "Brainstorm 3 types of guarantees for my consulting offer: 1. Satisfaction based, 2. Performance based, 3. 'Work until it's done' based."
+        action: "Draft a bold guarantee statement. Make it scary for you (that means it's good).",
+        prompt: "Brainstorm 3 types of guarantees for my consulting offer: 1. Satisfaction based, 2. Performance based (ROI), 3. 'Work until it's done' based."
     },
     {
         day: 22,
         phase: 2,
         title: "Financial Modeling: Unit Economics",
-        goal: "Analyze the P&L of your Minimum Viable Offer.",
-        concept: "Revenue is vanity; Margin is sanity. Calculate the 'Gross Margin' of your MVO. If you charge $10k, and it takes you 20 hours, your Effective Hourly Rate (EHR) is $500. This is your 'Unit Economics'. You cannot scale if your EHR is low.",
-        content: "Don't just set a price. Design the delivery to ensure high margins. Can you automate 20%? Can you use templates for 30%? This is 'Operational Leverage'. High margin services fund growth.",
+        goal: "Analyze the P&L of your Minimum Viable Offer to ensure profitability.",
+        concept: "Revenue is vanity; Margin is sanity. Calculate the 'Gross Margin' of your MVO. If you charge $10k, and it takes you 20 hours to deliver, your Effective Hourly Rate (EHR) is $500. This is acceptable. \nIf it takes 100 hours, your EHR is $100. You are just a well-paid employee. You cannot scale if your EHR is low.",
+        content: "Don't just set a price. Design the delivery to ensure high margins. \n1. Can you automate 20%? \n2. Can you use templates for 30%? \n3. Can a junior contractor do 40%? \nThis is 'Operational Leverage'. High margin services fund growth.",
         caseStudy: {
-            title: "Raising Rates 4x",
-            challenge: "A copywriter charged $100 per email.",
-            solution: "She started pitching 'Retention Sequences' that recovered lost customers. She showed a client this sequence would save $20k/month.",
-            result: "She charged $4,000 for the sequence (40 emails worth). The client paid happily because $4k to make $20k/mo is a bargain."
+            title: "Raising Rates 4x via Value",
+            challenge: "A copywriter charged $100 per email and struggled to pay rent. Clients viewed her as a 'commodity word-factory'.",
+            solution: "She started pitching 'Retention Sequences' that recovered lost customers. She showed a client this sequence would likely save $20k/month in churn.",
+            result: "She charged $4,000 for the sequence (40 emails worth). The client paid happily because $4k to make $20k/mo is a bargain. Her hourly rate went from $50 to $400."
         },
+        readingList: [],
         tips: [
-            "If 100% of people say 'Yes', your price is too low.",
-            "Aim for a 20% rejection rate on price. That means you found the ceiling.",
-            "Offer a 'Pay in Full' discount (cash flow) vs 'Payment Plan' (higher total)."
+            "If 100% of people say 'Yes', your price is too low. Aim for a 20% rejection rate.",
+            "Offer a 'Pay in Full' discount (e.g., 10% off) to improve cash flow.",
+            "Never lower your price. If they can't afford it, remove scope (downsell), don't discount."
         ],
-        action: "Set your price. Write it on a post-it. Do not apologize for it.",
-        prompt: "Help me justify a $[Price] fee for my service. List 5 visible and invisible costs I save the client (e.g., 'Cost of bad hire', 'Cost of lost time')."
+        action: "Calculate your MVO's estimated hours and Effective Hourly Rate.",
+        prompt: "Help me justify a $[Price] fee for my service. List 5 visible and invisible costs I save the client (e.g., 'Cost of bad hire', 'Cost of lost time', 'Cost of rework')."
     },
     {
         day: 23,
         phase: 2,
         title: "Sales Assets: The One-Pager",
-        goal: "Create a concise sales sheet.",
-        concept: "Nobody reads 20-page brochures. A One-Pager (Sell Sheet) is a visual summary of your offer used to pique interest.",
-        content: "Structure: 1. Headline (Promise). 2. Problem (Agitate). 3. Solution (Your Mechanism). 4. Social Proof (Logos/Quotes). 5. CTA.",
+        goal: "Create a high-impact sales sheet that fits on one screen.",
+        concept: "Nobody reads 20-page brochures. They scan summaries. A One-Pager (Sell Sheet) is a visual summary of your offer used to pique interest in the first 5 seconds of a cold interaction.",
+        content: "Structure of a Dangerous One-Pager: \n1. Headline (Big Promise). \n2. The Problem (Agitate the pain). \n3. The Solution (Your 'Named Mechanism' diagram). \n4. Social Proof (Logos/Quotes). \n5. The Offer (Delivery + Price). \n6. Low-Friction CTA (QR Code to Calendly).",
         caseStudy: {
             title: "The PDF that opened doors",
-            challenge: "Consultant needed to explain a complex supply chain solution to busy COOs.",
-            solution: "Created a visual 'Before/After' one-pager infographic.",
-            result: "The One-Pager was shared internally at target companies, bypassing gatekeepers because it was 'useful content', not just a brochure."
+            challenge: "A supply chain consultant needed to explain a complex logistics solution to busy COOs who wouldn't take a call.",
+            solution: "He condensed his 30-slide deck into a visual 'Before/After' infographic One-Pager.",
+            result: "The One-Pager was shared internally at target companies because it was 'useful content', not just a brochure. It bypassed gatekeepers and landed on the CEO's desk."
         },
-        tips: [
-            "Use Canva or hire a designer. Aesthetics matter here.",
-            "Focus on benefits, not features.",
-            "Include a QR code or link to your calendar."
+        readingList: [
+            { type: "Tool", title: "Canva", link: "Use the 'Sales Sheet' templates." }
         ],
-        action: "Draft the copy for your One-Pager.",
-        prompt: "Write the copy for a One-Pager selling [Service]. Include a punchy headline, 3 bullet points of pain, 3 bullet points of gain, and a testimonial placeholder."
+        tips: [
+            "Use Canva to design this. It must look expensive. Poor design = Poor perception.",
+            "Visuals > Text. Use a diagram to explain your process.",
+            "Include a direct booking link (or QR code) at the bottom."
+        ],
+        action: "Draft the copy for your One-Pager. Then spend 60 mins in Canva making it look pro.",
+        prompt: "Write the copy for a One-Pager selling [Service]. Include a punchy headline, 3 bullet points of pain, 3 bullet points of gain, and a call to action."
     },
     {
         day: 24,
         phase: 2,
-        title: "Sales Assets: Case Studies",
-        goal: "Build your 'Proof Portfolio'.",
-        concept: "Case studies are the currency of trust. Structure them as STAR: Situation, Task, Action, Result.",
-        content: "If you are new, do a 'Hypothetical Case Study' or use a 'Previous Life' case study (from your corporate job).",
+        title: "Sales Assets: The Proof Portfolio",
+        goal: "Build a set of Case Studies that do the selling for you.",
+        concept: "Case studies are the currency of trust. In consulting, nobody buys until they believe you have done it before. Use the STAR Framework (Situation, Task, Action, Result) to turn boring 'Testimonials' into gripping 'Success Stories'.",
+        content: "If you are new, do a 'Hypothetical Case Study' (How I would solve X) or use a 'Previous Life' case study (from your corporate job). \n\nKey: The 'Hero' of the story is the Client, not you. You are the Guide (Yoda), they are Luke.",
         caseStudy: {
             title: "Leveraging Past Wins",
-            challenge: "New independent consultant had zero 'clients'.",
+            challenge: "A new independent consultant had zero 'consulting clients' and felt like a fraud.",
             solution: "He wrote a case study about a project he led at his previous employer (Amazon). 'How I led the team that reduced shipping costs by 15%'.",
-            result: "Clients respected the experience. It didn't matter it was as an employee; the skill was proven."
+            result: "Clients respected the experience immediately. It didn't matter it was as an employee; the skill and result were proven. He closed his first deal in week 2."
         },
         readingList: [
             { type: "Article", title: "How to Write a Case Study", author: "HubSpot", link: "Templates and examples of high-converting case studies." }
         ],
         tips: [
-            "Use real numbers (%, $). Specificity sells.",
-            "Get a video testimonial if possible (Zoom recording).",
+            "Use real numbers (%, $). Specificity sells. 'Increased sales' is weak. 'Increased sales by 23.4%' is strong.",
+            "Get a video testimonial if possible (Zoom recording). Transcribe it for the text.",
             "Put your case studies on your LinkedIn Featured section."
         ],
-        action: "Write one detailed Case Study (STAR format).",
+        action: "Write one detailed Case Study (STAR format). It can be from a past job.",
         prompt: "Interview me about a past project. Ask questions to extract the Situation, Action, and specific Result to build a case study."
     },
     {
         day: 25,
         phase: 2,
-        title: "Outreach Strategy: Channel Selection",
-        goal: "Pick ONE channel to master first.",
-        concept: "Don't try to be everywhere. Be where your clients hang out. B2B = LinkedIn/Email. B2C = Instagram/TikTok/Facebook.",
-        content: "The 'Sniper' vs 'Shotgun' approach. Consulting usually favors the Sniper approach (Direct outreach to high-value targets).",
+        title: "Outreach Strategy: The Sniper Channel",
+        goal: "Pick ONE channel to master. Do not dabble.",
+        concept: "Most consultants try to be everywhere (Omnichannel) and end up invisible everywhere. You don't need 10 channels. You need 1 channel that works. \nB2B = LinkedIn + Email. \nB2C = Instagram/TikTok/Facebook. \nPick where your money is.",
+        content: "The 'Sniper' vs 'Shotgun' approach. Consulting usually favors the Sniper approach (Direct outreach to 100 high-value targets) rather than the Shotgun (SEO/Ads to everyone). It is faster, cheaper, and higher conversion.",
         caseStudy: {
             title: "The LinkedIn Sniper",
-            challenge: "Consultant tried blogging (SEO) for 6 months with zero leads.",
-            solution: "Switched to LinkedIn Sales Navigator. Identified 100 perfect prospects. Sent personalized videos.",
-            result: "Booked 15 calls in 2 weeks. SEO takes time; Outbound is immediate."
+            challenge: "A consultant tried blogging (SEO) for 6 months. He wrote 50 articles and got zero leads.",
+            solution: "He switched to LinkedIn Sales Navigator. He identified 100 perfect prospects (CTOs in FinTech). He sent 10 personalized video messages a day.",
+            result: "He booked 15 calls in 2 weeks. SEO takes months; Outbound takes minutes. He realized he was 'hiding' behind content instead of selling."
         },
         tips: [
-            "Go where the money is. Executives are on LinkedIn and Email.",
-            "Master one channel before adding a second.",
-            "Consistency > Intensity. 10 reachouts a day for 30 days > 300 in one day."
+            "Go where the money is. Executives are on LinkedIn and Email. They are not on TikTok for business.",
+            "Master one channel for 90 days before adding a second.",
+            "Consistency > Intensity. 10 reachouts a day for 30 days > 300 in one day (which triggers spam filters)."
         ],
-        action: "Commit to your primary channel.",
-        prompt: "Compare LinkedIn, Cold Email, and Twitter for finding clients in the [Industry] sector. Pros and cons of each."
+        action: "Commit to your primary channel. Ignore the others.",
+        prompt: "Compare LinkedIn, Cold Email, and Twitter for finding clients in the [Industry] sector. Pros and cons of each regarding speed to revenue."
     },
     {
         day: 26,
         phase: 2,
-        title: "List Building",
-        goal: "Build a list of 100 qualified leads.",
-        concept: "Your network is your net worth. You need a list of names, emails, and job titles.",
-        content: "Tools: Apollo.io, LinkedIn Sales Navigator, Hunter.io. 'The money is in the list'.",
+        title: "List Building: The Money is in the Data",
+        goal: "Build a list of 100 qualified leads who CAN pay you.",
+        concept: "Your network can be measured by the number of direct cell phone numbers (or emails) you have of decision makers. You cannot just 'post and hope'. You need to build a 'Dream 100' list of people you want to work with.",
+        content: "Tools: Apollo.io, LinkedIn Sales Navigator, Hunter.io. \nStep 1: Define the filter (Revenue > $10m, Title = 'VP of Marketing', Industry = SaaS). \nStep 2: Export the list. \nStep 3: Enrich the data (Find email).",
         caseStudy: {
             title: "Data-Driven Targeting",
-            challenge: "Agency was spamming generic info@ emails.",
-            solution: "Used Apollo.io to filter for 'Companies with $10M+ revenue, using Shopify, Head of Marketing'.",
-            result: "Response rate went from 1% to 12% because the list was highly qualified."
+            challenge: "An agency was spamming generic info@company.com emails and getting a 0.2% reply rate.",
+            solution: "They used Apollo to filter for 'Companies that use Shopify' (Technographic data) + 'Revenue $10M+' (Firmographic data). They found the specific eCommerce Director.",
+            result: "The message became: 'I see you use Shopify and do $10M+.'. Response rate went to 12% because the list was highly qualified, not random."
         },
         tips: [
-            "Verify emails to protect your domain deliverables (NeverBounce).",
-            "Segment your list (e.g., 'CEOs' vs 'CMOs' need different messages).",
-            "Don't buy shady lists. Scrape fresh data."
+            "Verify emails to protect your domain deliverables (use NeverBounce/ZeroBounce).",
+            "Segment your list: 'CEOs' care about profit; 'Marketing Managers' care about clicks. They need different messages.",
+            "Don't buy shady scraped lists. Build your own fresh data."
         ],
-        action: "Build a 'Dream 100' spreadsheet.",
-        prompt: "List the search filters I should use in LinkedIn Sales Navigator to find my ideal client [Avatar] in [Industry]."
+        action: "Build a 'Dream 100' spreadsheet with Name, Title, Company, and Email.",
+        prompt: "List the exact search filters I should use in LinkedIn Sales Navigator to find my ideal client [Avatar] in [Industry]. Include keywords and exclusions."
     },
     {
         day: 27,
         phase: 2,
-        title: "Cold Message Copywriting",
-        goal: "Write emails that get replies.",
-        concept: "The goal of a cold email is NOT to sell. It is to start a conversation. 'Sell the chat, not the contract'.",
-        content: "Framework: 1. Personalized Hook (I saw you...), 2. Problem/Empathy (Most X struggle with Y...), 3. Value/Credibility (We helped Z fix this...), 4. Low-Friction CTA (Open to a 5-min chat?).",
+        title: "Cold Message Copywriting: The 'Idea' Email",
+        goal: "Write emails that get replies by giving value, not asking for it.",
+        concept: "The goal of a cold email is NOT to sell. It is to start a conversation. 'Sell the chat, not the contract'. If you ask for a meeting in the first email, you look like a taker. If you offer an idea, you look like a giver.",
+        content: "The 'Idea' Framework: \n1. Personalized Hook (I saw you are hiring for X...). \n2. The Idea (I had a thought on how you could fix X...). \n3. Soft CTA (Mind if I send a 2-min video explaining it?).",
         caseStudy: {
             title: "The 'No-Brainer' Email",
-            challenge: "Consultant sent long paragraphs about his services. Crickets.",
-            solution: "Switch to 'The Idea' email. 'Hi [Name], I had an idea on how you could improve [Process]. Mind if I send a 2-min video?'",
-            result: "50% reply rate. People love free ideas.",
+            challenge: "A consultant sent long paragraphs about his services: 'We offer X, Y, Z'. Crickets. 0% reply.",
+            solution: "He switched to 'The Permissionless Idea' email. 'Hi [Name], I noticed your checkout page is broken on mobile. I made a quick video showing how to fix it. Want me to send it?'",
+            result: "50% reply rate. 'Yes, send it.' Once they saw the video, they realized he was an expert and booked a call. He gave value first.",
             link: "https://close.com/blog/cold-email-scripts/"
         },
         readingList: [
             { type: "Book", title: "Cold Email Manifesto", author: "Alex Berman", link: "Systematizing outbound sales." }
         ],
         tips: [
-            "Keep it under 100 words.",
-            "Read it out loud. If it sounds like a robot, rewrite it.",
-            "Don't use 'Dear Sir/Madam'. Use 'Hi [First Name]'."
+            "Keep it under 100 words. Mobile screens are small.",
+            "Read it out loud. If it sounds like a robot or a template, delete it.",
+            "Don't use 'Dear Sir/Madam'. Use 'Hi [First Name]'. Informal is the new professional."
         ],
-        action: "Draft 3 variations of cold email scripts.",
-        prompt: "Draft 3 cold emails targeting [Role]: 1. The 'Question' approach, 2. The 'Video Audit' approach, 3. The 'Case Study' approach."
+        action: "Draft 3 variations of cold email scripts. A/B test them.",
+        prompt: "Draft 3 cold emails targeting [Role]: 1. The 'Question' approach, 2. The 'Video Audit' approach, 3. The 'Case Study' approach (Referencing a competitor)."
     },
     {
         day: 28,
         phase: 2,
-        title: "Content Strategy",
-        goal: "Attract inbound leads (The Magnet).",
-        concept: "Outbound grabs attention; Inbound holds it. Show your expertise by 'Building in Public' or sharing 'Contrarian Truths'.",
-        content: "Don't post 'How-To' content (commodity). Post 'How-To-Think' content (authority). Challenge industry norms.",
+        title: "Content Strategy: The Magnetic Authority",
+        goal: "Attract inbound leads by publishing 'Contrarian Truths'.",
+        concept: "Outbound grabs attention (Push); Inbound holds it (Pull). You show your expertise by 'Building in Public' or sharing insights that challenge the industry. \n\nDon't post 'How-To' content (commodity; ChatGPT can do that). Post 'How-To-Think' content (authority).",
+        content: "The 'Contrarian' Framework: \n1. State the common belief ('Everyone says SEO is dead'). \n2. State why it is wrong ('Actually, bad SEO is dead'). \n3. Provide data/proof. \n4. Offer your new worldview.",
         caseStudy: {
             title: "The Contrarian Consultant",
-            challenge: "Marketing consultant blended in.",
-            solution: "Wrote a post: 'Why SEO is dead for B2B Startups'. It was controversial but backed by data.",
-            result: "Went viral in his niche. 500 new followers, 5 inbound leads who agreed with his worldview."
+            challenge: "A marketing consultant blended in with 1,000 others posting '5 tips for better ads'.",
+            solution: "He wrote a post: 'Why ROAS is a vanity metric and you should fire your agency if they report on it'. It was controversial but backed by financial logic.",
+            result: "It went viral in his niche. 500 new followers, and 5 inbound leads from CEOs who agreed with his worldview and wanted a 'no BS' partner."
         },
         tips: [
-            "Post consistently (e.g., every Tue/Thu).",
-            "Engage with commenters. That's where the leads are.",
-            "Reuse your content. Turn a post into a newsletter."
+            "Post consistently (e.g., every Tue/Thu at 9am). Algorithm loves rhythm.",
+            "Engage with commenters. That's where the leads are. Reply to every comment.",
+            "Reuse your content. Turn a successful LinkedIn post into a Newsletter."
         ],
         action: "Brainstorm 5 'Contrarian' headlines relevant to your niche.",
-        prompt: "Generate 10 LinkedIn post ideas that challenge the status quo in the [Industry] industry."
+        prompt: "Generate 10 LinkedIn post ideas that challenge the status quo in the [Industry] industry. Start with 'Unpopular Opinion:' or 'Stop doing X'."
     },
     {
         day: 29,
         phase: 2,
-        title: "The Lead Magnet",
-        goal: "Capture interest with a free asset.",
-        concept: "Most people aren't ready to buy today. A Lead Magnet (Freebie) gets them into your orbit. It must solve a specific, small problem immediately.",
-        content: "Examples: 'The 15-Point Audit Checklist', 'The salary benchmarking report', 'The vendor comparison cheat sheet'. High value, low friction.",
+        title: "The Lead Magnet: The Value First Exchange",
+        goal: "Capture interest with a free asset that solves a 'Splinter Problem'.",
+        concept: "Most people aren't ready to buy today (only 3% are). A Lead Magnet (Freebie) gets the other 97% into your orbit. It must solve a specific, small problem immediately. It buys you the right to email them.",
+        content: "High-Converting Examples: \n1. Cheatsheet: 'The 15-Point SaaS Pricing Checklist'. \n2. Template: 'The QBR Slide Deck for CSMs'. \n3. Calculator: 'The Churn Cost Calculator'. \n\nBad Examples: 'My Newsletter', 'A Whitepaper' (Boring).",
         caseStudy: {
             title: "The Checklist Win",
-            challenge: "Consultant wanted email addresses involved in M&A.",
-            solution: "Created 'The Pre-Merger IT Due Diligence Checklist'.",
-            result: "2,000 downloads in 3 months. 40 of those turned into 6-figure consulting projects."
+            challenge: "A consultant wanted email addresses of PE firms involved in M&A, but they are notoriously private.",
+            solution: "He created 'The Pre-Merger IT Due Diligence Checklist' (a PDF). It solved a specific headache (fear of missing something during a deal).",
+            result: "2,000 downloads in 3 months with $0 ad spend. 40 of those turned into 6-figure consulting projects. He essentially 'printed' leads."
         },
         readingList: [
             { type: "Book", title: "Acquisition.com", author: "Alex Hormozi", link: "Creating offers so good people feel stupid saying no (includes lead magnets)." }
         ],
         tips: [
-            "Give it a sexy title. Not 'Whitepaper'. 'The 2024 Blueprint'.",
-            "Deliver it instantly via email.",
-            "Follow up with a 'Value Sequence' email chain."
+            "Give it a sexy title. Not 'Whitepaper'. Call it 'The 2024 Blueprint' or 'The Protocol'.",
+            "Deliver it instantly via email. Don't make them wait.",
+            "Follow up with a 3-day 'Value Sequence' email chain that explains how to use it."
         ],
-        action: "Outline your Lead Magnet.",
-        prompt: "Brainstorm 5 high-value Lead Magnet ideas for [Target Audience] that I can create in 2 hours (e.g., Checklists, Templates, Calculators)."
+        action: "Outline your Lead Magnet. Create the 'Table of Contents'.",
+        prompt: "Brainstorm 5 high-value Lead Magnet ideas for [Target Audience] that I can create in 2 hours (e.g., Checklists, Templates, Calculators). They should solve [Specific Pain Point]."
     },
     {
         day: 30,
         phase: 2,
-        title: "Phase 2 Review",
-        goal: "Audit your Offer and Assets.",
-        concept: "You now have a 'Business in a Box': A named offer, a price, a guarantee, scripts, and a list. You are ready to launch.",
-        action: "Go/No-Go Checklist: Mechanism Named? Price Set? One-Pager Done? List Built?",
-        prompt: "Create a 'Launch Readiness' checklist for Phase 2."
+        title: "Phase 2 Review: The Engine Build",
+        goal: "Audit your Offer and Assets. Confirm you are ready to sell.",
+        concept: "You have now completed Phase 2. You moved from 'Idea' (Phase 1) to 'Product' (Phase 2). You have a 'Business in a Box': A named offer, a price, a guarantee, scripts, and a list. You are dangerous. \nIf you skip the review, you risk launching a broken rocket.",
+        content: "Checklist for Phase 2 Completion: \n1. [ ] Transformation: Point A to Point B is clear. \n2. [ ] Mechanism: Your process has a unique name. \n3. [ ] Delivery: 6-week schedule is mapped. \n4. [ ] Economics: You know your effective hourly rate. \n5. [ ] Guarantee: You have a risk reversal. \n6. [ ] Assets: One-Pager and Case Study are done. \n7. [ ] List: You have 100 prospects in a sheet.",
+        illustration: "The Pre-Flight Check. Pilots don't check the flaps because they think they might be broken; they check them because the cost of failure is death. Check your flaps.",
+        caseStudy: {
+            title: "The Pivot",
+            challenge: "During his Phase 2 review, a consultant realized his 'One-Pager' was too confusing.",
+            solution: "He scrapped it and simplified it to just 3 steps. He tested it on a friend.",
+            result: "The friend instantly said 'I get it'. He realized clarity is the only metric that matters."
+        },
+        action: "Complete the 'Go/No-Go' Checklist. If you are 'Go', celebrate. Phase 3 is where we make money (Launch).",
+        prompt: "Act as a ruthless VC. Review my 'Business in a Box' components (Offer, Price, Guarantee, List). Tell me which one is the weakest link that will break my launch."
     },
 
     // PHASE 3: MARKETING & LEAD GEN (Days 31-45)
