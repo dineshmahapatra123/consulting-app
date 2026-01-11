@@ -270,84 +270,136 @@ export const curriculumData = [
     {
         day: 11,
         phase: 1,
-        title: "Legal & Admin Foundation",
-        goal: "Protect yourself and get ready to transact.",
-        concept: "Don't overengineer, but don't be negligent. Separate business and financial liability.",
-        content: "The goal is to be 'audit-proof' and 'lawsuit-resistant'. An LLC is usually the minimum viable structure in the US.",
+        title: "Legal & Admin Foundation: The 'Audit-Proof' Setup",
+        goal: "Protect your assets and prepare to transact with enterprise clients.",
+        concept: "You are not a freelancer; you are a Business Entity. Startups fail due to 'Legal Technical Debt'. Do not mix personal and business funds (Piercing the Corporate Veil). A proper setup signals to clients that you are a serious vendor, not a risky hobbyist.",
+        content: "The Minimum Viable Legal Stack: \n1. Entity: LLC (Limited Liability Company) protects your personal home/savings from lawsuits. \n2. EIN: Your business 'Social Security Number'. Required for banking. \n3. Bank Account: NEVER use your personal checking. \n4. Insurance: General Liability + E&O (Errors & Omissions). costs <$50/mo but can save you millions.",
+        illustration: "Think of your business as a Submarine. The LLC is the pressure hull. If it cracks (co-mingling funds), the water rushes in and sinks everything (your personal assets). Keep the hull integrity 100%.",
+        caseStudy: {
+            title: "The 'Scope Creep' Nightmare",
+            challenge: "A designer started a project with a handshake agreement. The client adding 'just one more page' for 3 months.",
+            solution: "She finally implemented a rigorous 'Master Services Agreement' (MSA) with a clear 'Statement of Work' (SOW).",
+            result: "When the client asked for more work, she pointed to the SOW and said, 'Happy to do that! It will be a Change Order for $1,500.' The client respected the boundary and paid. The contract saved the relationship."
+        },
         readingList: [
-            { type: "Article", title: "Small Business Administration Guide", link: "Official government guide to starting a business." }
+            { type: "Article", title: "Small Business Administration Guide", link: "Official government guide to starting a business." },
+            { type: "Resource", title: "Plain English Contract Templates", author: "Docracy/Clerky", link: "Open source legal documents for startups." }
         ],
-        tips: ["Get a separate bank account Day 1. Co-mingling funds pierces the corporate veil.", "Use a simple contract template with a 'Scope of Work' appendix."],
-        action: "Register for an EIN (free). Open a separate bank account.",
-        prompt: "Generate a plain-English 'Independent Contractor Agreement' template. Include sections for: 1. Scope, 2. Payment Terms, 3. IP Ownership (Client owns work upon payment), 4. Confidentiality."
+        tips: [
+            "Get a separate bank account Day 1. Co-mingling funds is the #1 way to lose liability protection.",
+            "Use a 'Retainer Agreement' for ongoing advisory work, not just 'Project' contracts.",
+            "Get 'Professional Indemnity' (E&O) insurance. Some big clients won't hire you without it."
+        ],
+        action: "1. Register for an EIN (free). \n2. Open a business checking account (Mercury/Novo/Chase). \n3. Draft your standard MSA template.",
+        prompt: "Generate a plain-English 'Independent Contractor Agreement' template. Include sections for: 1. Scope, 2. Payment Terms (50% upfront), 3. IP Ownership (Client owns work ONLY upon full payment), 4. Confidentiality, 5. Dispute Resolution."
     },
     {
         day: 12,
         phase: 1,
-        title: "Tool Stack Selection",
-        goal: "Build your digital office.",
-        concept: "Keep it lean. Friction kills deals. You need tools that make it easy for clients to pay you and meet you.",
-        content: "Recommended Stack: 1. Zoom (Video), 2. Calendly (Scheduling), 3. Stripe (Payments), 4. Notion/HubSpot (CRM). Total cost < $100/mo.",
+        title: "Tool Stack Selection: The Digital Operation",
+        goal: "Build a frictionless 'Digital Office' that scales without hiring.",
+        concept: "You need to reduce 'Admin Drag'. Every minute you spend scheduling meetings or chasing invoices is a minute you aren't billing. Use software to automate the low-value work. Friction kills deals; make it easy for clients to pay you and meet you.",
+        content: "The 'Lean Consultant' Stack (Under $100/mo): \n1. Scheduling: Calendly (Eliminates 'What time works for you?' tag). \n2. Video: Zoom/Google Meet. \n3. Payments: Stripe (Accept credit cards instantly). \n4. CRM: Notion or HubSpot Free (Track leads). \n5. E-Sign: HelloSign/DocuSign (Get contracts signed fast).",
+        illustration: "The 'vending machine' vs. the 'corner store'. A vending machine works 24/7 without a clerk. Your scheduling and payment systems should be vending machines. Your consulting is the corner store.",
         caseStudy: {
             title: "The Frictionless Close",
-            challenge: "Consultant A went back and forth on email to find a meeting time. Client lost interest.",
-            solution: "Consultant B sent a Calendly link. Client booked in 30 seconds.",
-            result: "Consultant B got the deal. Professionalism signals competence."
+            challenge: "Consultant A went back and forth on email 8 times to find a meeting time. The client lost interest and hired someone else.",
+            solution: "Consultant B sent a Calendly link: 'Pick a time that works for you here.'",
+            result: "Consultant B got the booking in 30 seconds. The ease of booking signaled 'Professionalism' and 'Respect for Time'. The client assumed the project would be just as smooth.",
         },
-        readingList: [],
-        tips: ["Automate your invoicing.", "Don't buy expensive software (Salesforce) until you have revenue."],
-        action: "Set up your Calendly and link it to your calendar.",
-        prompt: "Create a 3-step 'New Client Onboarding' email sequence that triggers automatically when a client pays via Stripe, sending them the Calendly link and a 'Homework' form."
+        readingList: [
+            { type: "Resource", title: "Zapier", link: "The glue that connects your apps (Automate everything)." }
+        ],
+        tips: [
+            "Sync your Calendly to your personal calendar so you never get double-booked.",
+            "Use Stripe to create 'Payment Links' you can text to clients. Remove the friction of 'Invoices'.",
+            "Don't buy expensive enterprise software (Salesforce) until you have $100k revenue. Excel is fine."
+        ],
+        action: "Set up your 'Booking Funnel': 1. Create Calendly account. 2. Create Stripe account. 3. Create a 'Discovery Call' event type that asks qualifying questions.",
+        prompt: "Create a 3-step 'New Client Onboarding' email sequence. Email 1: Welcome + Contract Link. Email 2: Payment Link (Stripe). Email 3: Schedule Kick-off (Calendly) + Pre-work Questionnaire."
     },
     {
         day: 13,
         phase: 1,
-        title: "Personal Branding Basics",
-        goal: "Look the part online.",
-        concept: "Your LinkedIn profile is your landing page. It must scream 'Expert', not 'Job Seeker'.",
-        content: "Most profiles read like a resume ('I did this'). They should read like a sales letter ('I help you do this').",
+        title: "Personal Branding Basics: The Authority Signal",
+        goal: "Optimize your digital presence to scream 'Expert' to a cold visitor.",
+        concept: "Your LinkedIn profile is your Landing Page. It is not a CV. A CV looks backward (history); a Brand looks forward (potential). If a prospect Googles you, what do they find? Inconsistency? Silence? Or a clear, authoritative signal that you solve their specific problem?",
+        content: "Elements of a High-Converting Profile: \n1. Headline: Benefit-driven (e.g., 'Helping [Niche] achieve [Result]'). \n2. Banner: Social Proof or Value Prop. \n3. About Section: A Sales Letter. Hook -> Problem -> Agitate -> Solution -> Call to Action. \n4. Featured: Case Studies/Results.",
+        illustration: "The 'Empty Restaurant' Effect. If you walk by a restaurant and it's empty, you keep walking. If your social profiles are empty, clients assume you aren't in demand. You must populate the feed.",
         caseStudy: {
-            title: "Profile Makeover",
-            challenge: "A Recruiter turned consultant had 'Talent Acquisition Specialist' as her headline.",
-            solution: "She changed it to 'I help Tech Scale-ups hire their first 10 Engineers'.",
-            result: "Her connection acceptance rate went from 10% to 50%. She got 3 inbound leads in week 1."
+            title: "Profile Makeover Conversion",
+            challenge: "A former Recruiter turned 'Talent Consultant' had 'Talent Acquisition Specialist at [Company]' as her headline. She got zero inbound leads.",
+            solution: "She changed her headline to: 'I help Tech Scale-ups hire their first 10 Engineers in under 30 days.'",
+            result: "Her connection acceptance rate went from 12% to 65%. VCs started messaging her to help their portfolio companies. She didn't change her skills; she changed the 'Storefront Sign'."
         },
         readingList: [
-            { type: "Book", title: "Known", author: "Mark Schaefer", link: "Building and unleashing your personal brand." }
+            { type: "Book", title: "Known", author: "Mark Schaefer", link: "Building and unleashing your personal brand." },
+            { type: "Guide", title: "The LinkedIn high-Converting Profile Checklist", author: "Justin Welsh", link: "Tactical steps to optimize your profile." }
         ],
-        tips: ["Professional headshot is non-negotiable.", "Use the 'Featured' section to showcase case studies."],
-        action: "Update your LinkedIn Headline and Banner.",
-        prompt: "Critique my LinkedIn headline '[Current Headline]'. Rewrite it to be benefit-driven."
+        tips: [
+            "Get a professional headshot. No selfies, no wedding crop-outs. It's the highest ROI $100 you will spend.",
+            "Use the 'Featured' section to showcase your 'MVO' or a Case Study PDF.",
+            "Turn on 'Creator Mode' on LinkedIn to display your content better and get 'Follow' buttons."
+        ],
+        action: "The 30-Minute Profile Audit: Update Headline, Banner, and 'About' section today. Ask 3 friends 'What does this person do?' based only on the profile.",
+        prompt: "Critique my proposed LinkedIn headline: '[Current Headline]'. Rewrite it 5 times to be outcomes-focused, addressing [Target Niche] and [Big Benefit]."
     },
     {
         day: 14,
         phase: 1,
-        title: "The Elevator Pitch",
-        goal: "Describe what you do clearly in 30 seconds.",
-        concept: "Used for networking, intros, and podcasts. Needs to invite a question.",
-        illustration: "Bad: 'I do computer stuff.' Good: 'I help banks prevent data breaches so they don't end up on the news.'",
-        tips: ["Don't use your title.", "Focus on the 'After' state of your client."],
-        action: "Record yourself saying your pitch. Listen and refine.",
-        prompt: "Draft 3 versions of an elevator pitch: 1. The 'Problem/Solution' Pitch, 2. The 'Social Proof' Pitch (mentioning typical clients), 3. The 'Contrarian' Pitch (challenging a norm)."
+        title: "The Elevator Pitch: Verbal Branding",
+        goal: "Describe what you do clearly in 30 seconds to invite a conversation.",
+        concept: "The purpose of a pitch is NOT to sell; it is to get the other person to ask 'How do you do that?'. Most people answer 'What do you do?' with a title ('I'm a consultant'). This stops the conversation. \n\nFormula: 'I help [Target] solve [Problem] so they can [Result].'",
+        content: "Types of Pitches: \n1. The Problem/Solution: 'I help banks prevent data breaches.' \n2. The Social Proof: 'I work with companies like Uber to fix their driver retention.' \n3. The Contrarian: 'You know how most agencies charge for time? I only charge for results.'",
+        illustration: "Bad Pitch: 'I'm a logistic consultant.' (Boring. Boxed in). \nGood Pitch: 'I help retailers cut their shipping costs by 20% without changing carriers.' (Interesting. Profitable. Invites questions).",
+        caseStudy: {
+            title: "The Networking Pivot",
+            challenge: "Jim introduced himself as a 'Leadership Coach'. People nodded politely and walked away.",
+            solution: "He changed his intro to: 'I help burnt-out tech founders build executive teams so they can take a vacation.'",
+            result: "Suddenly, founders started saying 'I need that. Let's talk.' The 'Vacation' was the emotional hook, not the 'Coaching'.",
+        },
+        readingList: [
+            { type: "Book", title: "To Sell Is Human", author: "Daniel Pink", link: "Moving others." }
+        ],
+        tips: [
+            "Don't use your job title. It's the least interesting thing about you.",
+            "Focus on the 'After' state of your client (The Vacation, The IPO, The Exit).",
+            "End with a question: 'Do you know anyone dealing with that?'"
+        ],
+        action: "Record yourself saying your pitch into your phone. Listen to it. Do you sound bored? Do you sound confident? Iterate until it flows naturally.",
+        prompt: "Draft 3 versions of an elevator pitch for me: 1. The 'Problem/Solution' Pitch, 2. The 'Social Proof' Pitch, 3. The 'Contrarian' Pitch."
     },
     {
         day: 15,
         phase: 1,
-        title: "Phase 1 Review",
-        goal: "Consolidate and Lock-in.",
-        concept: "Review brings clarity. Ensure your foundation is solid before building the house.",
-        action: "Checklist: Niche defined? UVP clear? Offer Packaged? Bank Account open?",
-        prompt: "Create a 'Go/No-Go' checklist for launching a consulting business."
+        title: "Phase 1 Review: The Foundation",
+        goal: "Consolidate your progress and ensure you are ready to build the house.",
+        concept: "You have now completed the 'Invisible Work'—Mindset, Operations, and Positioning. If you skip this, the 'Visible Work' (Marketing/Sales) will fail because there is no foundation. Review brings clarity. You cannot build a skyscraper on quicksand.",
+        content: "Checklist for Phase 1 Completion: \n1. [ ] Mindset Shift: I am an asset, not a cost. \n2. [ ] Niche: I know WHO I serve and WHAT problem I solve. \n3. [ ] Positioning: I have a UVP and a 'Moat'. \n4. [ ] Offer: I have an MVO with a name and price. \n5. [ ] Admin: I have an LLC, EIN, and Business Bank Account. \n6. [ ] Tools: I can accept money (Stripe) and book meetings (Calendly). \n7. [ ] Brand: My LinkedIn profile looks like a landing page.",
+        illustration: "Rocket Launch. 90% of the energy is spent in the first mile (gravity). Once you break orbit (Phase 1), the rest requires less friction. You have broken gravity.",
+        caseStudy: {
+            title: "The False Start",
+            challenge: "Mark skipped Phase 1 and started cold calling immediately. He got meetings but couldn't close because he had no clear offer and no way to accept payment.",
+            solution: "He paused, went back, and built his Foundation (Days 1-14).",
+            result: "When he resumed outreach, he closed 3 deals in a week because he looked professional and his offer was clear."
+        },
+        readingList: [],
+        tips: [
+            "If you checked less than 5 boxes, do not proceed to Phase 2. Go back and fix the foundation.",
+            "Celebrate this milestone. You are now a business owner, not just a person with an idea."
+        ],
+        action: "Complete the 'Go/No-Go' Checklist. If you are 'Go', take a day off before starting Phase 2.",
+        prompt: "Act as an auditor. Review my current status against the 7-point checklist. Tell me where I am weakest and what I need to fix before I start marketing."
     },
     // PHASE 2: OFFER & ASSETS (Days 16-30)
     {
         day: 16,
         phase: 2,
-        title: "The Transformation Statement",
-        goal: "Define the specific Point A (Hell) to Point B (Heaven) journey.",
-        concept: "Clients don't buy consulting; they buy a future state. Your offer must bridge the gap between their current pain and their desired pleasure. The larger the gap, the higher the price.",
-        content: "Stop selling 'process' (e.g., 'I do SEO audits'). Start selling 'outcome' (e.g., 'I help you rank #1 for your highest value keywords'). The Transformation Statement is the core of your marketing engine.",
-        illustration: "Airline Analogy: Airlines don't sell 'sitting in a metal tube for 6 hours'. They sell 'Wake up in Paris'. You are the airline. Sell Paris, not the plane.",
+        title: "The Transformation Statement: Bridging the Gap",
+        goal: "Define the specific Point A (Hell) to Point B (Heaven) journey you facilitate.",
+        concept: "Clients don't buy consulting; they buy a future state. They buy 'Rescue' or 'Optimization'. Your offer must bridge the gap between their current pain and their desired pleasure. The larger the gap, the higher the price you can command.",
+        content: "Stop selling 'process' (e.g., 'I do SEO audits'). Start selling 'outcome' (e.g., 'I help you rank #1 for your highest value keywords'). The Transformation Statement is the core of your marketing engine: \n'I take [Avatar] from [Point A: Pain] to [Point B: Pleasure] in [Timeframe].'",
+        illustration: "Airline Analogy: Airlines don't sell 'sitting in a metal tube for 6 hours'. They sell 'Wake up in Paris'. \n\n- Point A: Rainy London. \n- The Plane: Your Service. \n- Point B: Sunny Paris. \n\nMarketing Focus: Sell Paris, not the plane.",
         caseStudy: {
             title: "From 'Career Coach' to 'Executive Accelerator'",
             challenge: "A career coach was struggling to sell $100 sessions. Her offer was vague: 'I help you find a job you love.'",
@@ -361,23 +413,24 @@ export const curriculumData = [
         tips: [
             "Use 'From X to Y' framing.",
             "Make Point B measurable (e.g., 'Save 10 hours/week' vs 'Save time').",
-            "Point A must be painful. If they aren't in pain, they won't pay."
+            "Point A must be visceral. If they aren't in pain, they won't pay."
         ],
-        action: "Draft your 'From/To' table. Column A: Current Pains. Column B: Desired Wins.",
+        action: "Draft your 'From/To' table. Column A: Current Pains (Hell). Column B: Desired Wins (Heaven). List at least 10 for each.",
         prompt: "I am targeting [Target Audience]. List 10 visceral, emotional 'Point A' pains they feel daily, and 10 specific 'Point B' outcomes they dream of. Contrast them."
     },
     {
         day: 17,
         phase: 2,
-        title: "Mechanism Design",
-        goal: "Name your unique process to build IP value.",
-        concept: "If you sell 'Strategy', you are a commodity. If you sell 'The 3-Pillar Profit Protocol', you own a proprietary mechanism. Naming your process makes it tangible and valuable.",
-        content: "Great firms do this: McKinsey has the '7S Framework', BCG has the 'Growth-Share Matrix'. You need your own 'named' way of solving the problem. It gives clients confidence that you have a map.",
+        title: "Mechanism Design: Naming Your System",
+        goal: "Name your unique process to build IP value and trust.",
+        concept: "If you sell 'Agile Transformation', you are a commodity (there are 10,000 others). If you sell 'The 3-Pillar Velocity Protocol', you own a proprietary mechanism. Naming your process makes it tangible and valuable. It shifts the conversation from 'Why you?' to 'How does the Protocol work?'.",
+        content: "Great firms do this: McKinsey has the '7S Framework', BCG has the 'Growth-Share Matrix'. You need your own 'named' way of solving the problem. It gives clients confidence that you have a map, not just a machete.",
+        illustration: "The Black Box vs. The Glass Box. \n- Black Box: 'Trust me, I'll fix it.' (Risky). \n- Glass Box: 'First we do the Audit, then the Strategy, then the Rollout.' (Safe). \n\nYour Mechanism is the wiring diagram of the Glass Box.",
         caseStudy: {
             title: "The 'Profit-First' Effect",
-            challenge: "An accountant offered 'Bookkeeping Services'. He was competing with $20/hr overseas VAs.",
+            challenge: "An accountant offered 'Bookkeeping Services'. He was competing with $20/hr overseas VAs who could do the math cheaper.",
             solution: "He adopted the 'Profit First' methodology. He stopped selling bookkeeping and started selling 'Profit First Implementation'.",
-            result: "He became one of the few certified experts in a specific named mechanism. Clients sought HIM out because they wanted THAT specific system, not just generic accounting."
+            result: "He became one of the few certified experts in a specific named mechanism. Clients sought HIM out because they wanted THAT specific system, not just generic accounting. He charged $5k for setup instead of $50/mo."
         },
         readingList: [
             { type: "Article", title: "The Unique Mechanism", author: "Todd Brown", link: "Why having a unique mechanism is the difference between a 6 and 7 figure business." }
@@ -385,34 +438,35 @@ export const curriculumData = [
         tips: [
             "Use alliteration (e.g., The 3 C's of Conversion).",
             "Create a visual model (Triangle, Pyramid, Flywheel).",
-            "The mechanism explains 'How' the transformation happens."
+            "The mechanism explains 'How' the transformation happens, not 'What' happens."
         ],
-        action: "Draw your process as a diagram. Give it a catchy name.",
+        action: "Draw your process as a diagram. Is it 3 steps? 5 steps? Give it a catchy name (e.g., The [Adjective] [Noun] [System]).",
         prompt: "My consulting process involves 3 steps: [Step 1], [Step 2], [Step 3]. Generate 10 proprietary names for this system using words like 'Protocol', 'Accelerator', 'Framework', 'Matrix', 'Blueprint'."
     },
     {
         day: 18,
         phase: 2,
-        title: "Structuring Delivery",
-        goal: "Design the logistics of your MVO (Minimum Viable Offer).",
-        concept: "How will you actually deliver the result? Avoid the 'Blank Sheet of Paper' nightmare. Productize your delivery into a standard timeline. 1. Audit, 2. Strategy, 3. Execution, 4. Optimization.",
-        content: "Standardization = Scale. If every client gets a custom scope, you are building a trap, not a business. Define a fixed duration (e.g., 6 weeks) and fixed deliverables.",
+        title: "Structuring Delivery: The Standard Operating Procedure",
+        goal: "Design the logistics of your MVO (Minimum Viable Offer) to ensure scalability.",
+        concept: "How will you actually deliver the result? Avoid the 'Blank Sheet of Paper' nightmare. If every project is unique, you are an artist, not a business. Artists starve. Businesses scale. Productize your delivery into a standard timeline. \n\nTypical Phase Layout: \n1. Audit (Diagnosis) \n2. Strategy (Prescription) \n3. Execution (Surgery) \n4. Optimization (Check-up).",
+        content: "Standardization = Scale. If every client gets a custom scope, you are building a trap. Define a fixed duration (e.g., 6 weeks), fixed deliverables, and fixed touchpoints. \n- Week 1: Kickoff Call + Data Collection. \n- Week 2: Analysis (Async). \n- Week 3: Strategy Review (Call).",
+        illustration: "The Assembly Line. Imagine if Ford built every car from scratch based on what the driver felt like that day. It would cost $500k and take 2 years. They built the Model T on a line. Build your Model T.",
         caseStudy: {
-            title: "The Workshop Model",
-            challenge: "A strategy consultant spent months on open-ended retainers that dragged on forever.",
-            solution: "He pivoted to a '2-Day Intensive' structure. Day 1: Diagnosis. Day 2: Strategic Roadmap.",
-            result: "He charged $15k for the 2 days. Clients loved the speed. He loved the closure. No more scope creep."
+            title: "The Workshop Model Pivot",
+            challenge: "A strategy consultant spent 3-4 months on open-ended retainers. Scope creep was rampant, and clients dragged their feet on feedback.",
+            solution: "He pivoted to a '2-Day Intensive' structure. Day 1: Diagnosis & workshop with the team. Day 2: Strategic Roadmap creation (Solo). Delivered at 5 PM.",
+            result: "He charged $15k per intensive. Clients loved the speed (Result in 2 days, not 2 months). He loved the closure. No more scope creep. He could do 4 of these a month and make $60k."
         },
         readingList: [
             { type: "Book", title: "Productize", author: "Eisha Armstrong", link: "The ultimate guide to turning professional services into scalable products." }
         ],
         tips: [
-            "Cap the duration (e.g., 'This is a 30-day sprint').",
-            "Include a 'Kickoff' and 'Closeout' call as standard.",
-            "Weekly status emails are better than weekly status calls."
+            "Cap the duration (e.g., 'This is a 6-week sprint'). Timeboxes force action.",
+            "Include a 'Kickoff' and 'Closeout' call as standard. Everything else should be async or email if possible.",
+            "Weekly status emails (Friday updates) are better than weekly status calls (which turn into therapy sessions)."
         ],
-        action: "Map out the week-by-week timeline of your service.",
-        prompt: "Create a 6-week delivery schedule for my consulting offer. Include key milestones and deliverables for each week."
+        action: "Map out the week-by-week timeline of your service. Create a 'Deliverables' list for each week.",
+        prompt: "Create a 6-week delivery schedule for my consulting offer. Include key milestones, client homework, and specific deliverables for each week."
     },
     {
         day: 19,
@@ -420,13 +474,13 @@ export const curriculumData = [
         title: "The Challenger Sale: Commercial Insight",
         goal: "Teach, Tailor, and Take Control. Move beyond 'Relationship Selling'.",
         concept: "The 'Relationship Builder' profile is the lowest performing in complex B2B sales (Dixon & Adamson). The 'Challenger' wins. You must teach the client something new about their business. Don't just diagnose (SPIN); offer 'Commercial Insight' that reframes their thinking.",
-        content: "Don't ask: 'What keeps you up at night?' (Boring). Say: 'Here is what SHOULD be keeping you up at night.' Challenge their status quo. Show them the hidden cost of their current trajectory. Conflict creates value.",
-        illustration: "The Mentor vs. The Friend. A friend listens to your problems. A mentor tells you that your current strategy is flawed and shows you a better way. Be the mentor.",
+        content: "Don't ask: 'What keeps you up at night?' (Boring). \nSay: 'Here is what SHOULD be keeping you up at night.' (Authoritative). \n\nChallenge their status quo. Show them the hidden cost of their current trajectory. Conflict creates value.",
+        illustration: "The Mentor vs. The Friend. \n- A friend hugs you and listens to your problems. \n- A mentor tells you that your current strategy is flawed and shows you a better way. \n\nClients pay Mentors. They have coffee with Friends. Be the mentor.",
         caseStudy: {
             title: "Asking the Right Questions",
-            challenge: "Consultant Ben kept pitching his solution 5 minutes into the call. Clients said 'Let me think about it'.",
-            solution: "He switched to a diagnostic script. He spent 40 mins asking about the *cost* of the problem. 'How much revenue are you losing per month due to this?'",
-            result: "By the time he revealed the price ($10k), the client had already admitted the problem was costing them $100k/year. The sale was logical."
+            challenge: "Consultant Ben kept pitching his solution 5 minutes into the call. Clients said 'Let me think about it' and ghosted.",
+            solution: "He switched to a diagnostic script. He spent 40 mins asking about the *cost* of the problem. 'How much revenue are you losing per month due to this?' 'What happens if you don't fix it by Q4?'",
+            result: "By the time he revealed the price ($10k), the client had already admitted the problem was costing them $100k/year. The sale was logical, not emotional. He closed 40% of leads."
         },
         readingList: [
             { type: "Book", title: "SPIN Selling", author: "Neil Rackham", link: "The gold standard scientific sales method." },
@@ -435,34 +489,35 @@ export const curriculumData = [
         tips: [
             "Talk 20% of the time. Listen 80%.",
             "Don't provide the solution on the call. Diagnose the problem, then sell the *implementation* of the solution.",
-            "Record your calls (Game tape)."
+            "Record your calls (Game tape). You will be shocked at how much you interrupt."
         ],
-        action: "Write out your 5 core 'Implication' questions.",
+        action: "Write out your 5 core 'Implication' questions. (e.g., 'If this isn't solved, how does it affect your 2024 goals?').",
         prompt: "I am selling [Service]. Generate 5 'Implication Questions' that make the prospect realize the high cost of NOT hiring me."
     },
     {
         day: 20,
         phase: 2,
-        title: "The Proposal Template",
-        goal: "Create a proposal that closes, not just informs.",
-        concept: "Most proposals are boring focused on 'Deliverables'. Winning proposals focus on 'Outcomes' and 'Options'.",
-        content: "The 'Option Structure': Option 1 (Do it yourself / Audit), Option 2 (Done With You / Core Offer), Option 3 (VIP / Fast Track). This changes the choice from 'Yes/No' to 'A, B, or C'.",
+        title: "The Proposal Template: The Options Close",
+        goal: "Create a proposal that closes, not just informs. Use 'Anchoring'.",
+        concept: "Most proposals are boring Word docs focused on 'Deliverables'. Winning proposals focus on 'Outcomes' and 'Options'. Never send a proposal with 1 price. That is a 'Yes/No' question. Send 3 options. That is a 'Which One?' question.",
+        content: "The 'Option Structure': \n- Option 1 (Anchor): The VIP 'Do It All'. Price: $25k. (Makes the middle option look cheap). \n- Option 2 (Core): The Target MVO. Price: $10k. \n- Option 3 (Low): Audit/DIY. Price: $3k. \n\n65% of clients will pick Option 2.",
+        illustration: "The Popcorn Effect. Movie theaters sell 'Small', 'Medium' and 'Large'. The Large is huge but only $0.50 more. Most people buy the Large. You need a 'Large' to make the 'Medium' feel safe.",
         caseStudy: {
-            title: "The 3-Option Close",
-            challenge: "A web design agency sent single-price quotes ($5k). Clients often ghosted or negotiated down.",
-            solution: "They started sending 3 options. 1. Basic Refresh ($3k). 2. Growth Redesign ($8k). 3. Market Dominance Package ($15k).",
-            result: "Most clients picked the middle option ($8k), increasing their average deal size by 60%. Some picked the VIP option, which was pure bonus revenue."
+            title: "Tripling Deal Value",
+            challenge: "A designer sent proposals with a single quote: '$4,000 for the website'. Clients negotiated him down to $3,000.",
+            solution: "He started sending 3 options. 1. Basic Site ($5k). 2. Site + SEO + Copy ($12k). 3. Site + SEO + Copy + monthly maintenance ($25k).",
+            result: "The client picked Option 2 ($12k). He tripled his deal size instantly, just by offering a 'Premium' option that made $12k look reasonable compared to $25k."
         },
         readingList: [
-            { type: "Book", title: "Million Dollar Consulting Proposals", author: "Alan Weiss", link: "How to write proposals that are accepted within 24 hours." }
+            { type: "Resource", title: "Better Proposals", link: "Software that tracks when clients open your proposal." }
         ],
         tips: [
-            "Never email a proposal without booking a review call.",
-            "Keep it under 5 pages. Executive summary is key.",
-            "Include a 'Why Now?' section to drive urgency."
+            "Send the proposal within 24 hours of the call. Speed kills doubt.",
+            "Use a video walkthrough (Loom) to explain the proposal. Don't just email a PDF.",
+            "The 'Expire Date': Proposals should self-destruct in 7 days to force a decision."
         ],
-        action: "Draft a 3-Tier Proposal structure for your offer.",
-        prompt: "Draft the 'Executive Summary' of a proposal for a client. Also, write a short email script to send to the client to book the 'Proposal Review Call' (do not attach the proposal PDF)."
+        action: "Create your '3-Option' Proposal Template. Define what goes in Gold/Silver/Bronze.",
+        prompt: "Draft the 3 option tiers for my service. 1. The 'Do it Yourself' (Low). 2. The 'done With You' (Target). 3. The 'VIP' (High Anchor). Give them Names and Price relative to each other (1x, 3x, 10x)."
     },
     {
         day: 21,
