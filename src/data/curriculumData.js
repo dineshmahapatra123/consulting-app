@@ -748,218 +748,292 @@ export const curriculumData = [
     {
         day: 31,
         phase: 3,
-        title: "Launch Day Protocol",
-        goal: "Execute a 'Soft Launch' to validate systems.",
-        concept: "Don't aim for a 'Grand Opening' (crickets); aim for a 'Beta Launch'. Frame it as 'Opening 5 spots for Case Study partners'. This lowers the barrier to entry and creates scarcity.",
-        content: "The 'Founding Member' script: 'I am taking on 5 clients at 50% off in exchange for a detailed video testimonial.' This gets you Cash, Confidence, and Case Studies (The 3 C's) immediately.",
+        title: "Launch Day Protocol: The 'Beta' Frame",
+        goal: "Execute a 'Soft Launch' to get cash and case studies immediately.",
+        concept: "Do not do a 'Grand Opening' (risk of crickets). Do a 'Beta Launch'. Frame it as 'I am opening 5 spots for Case Study partners'. This changes the dynamic from 'Please hire me' to 'Do you qualify?' and creates scarcity.",
+        content: "The 'Founding Member' Offer: \n'I am launching a new program to help [Avatar] achieve [Result]. I am looking for 5 Founding Members to run through it at 50% off in exchange for a detailed video testimonial and daily feedback. Who is interested?'",
         caseStudy: {
-            title: "The Beta Class Launch",
-            challenge: "Consultant terrified of charging $5k with no testimonials.",
-            solution: "Launched a '6-week Beta Cohort' for $1k. Sold 10 spots in 48 hours via LinkedIn DM.",
-            result: "Generated $10k cash (Launch budget), gathered 10 testimonials, and fixed 5 bugs in the program before the 'Official' $5k launch."
+            title: "The $10k Weekend",
+            challenge: "A consultant was terrified of charging $5k with zero testimonials.",
+            solution: "She launched a '6-week Beta Cohort' for $1k (80% off). She posted it on LinkedIn and sent 20 DMs to warm leads.",
+            result: "She sold 10 spots in 48 hours ($10k cash). She used that money to fund her tech stack and, more importantly, walked away with 10 raving video testimonials to sell the full price version."
         },
-        tips: ["Don't announce 'I am open for business'. Announce 'I am looking for X specific people'.", "Direct Message your warmest 20 contacts personally before posting publicly."],
+        tips: [
+            "Direct Message your warmest 20 contacts personally before posting publicly. 'I thought of you first...'",
+            "Create a waitlist. Even if you have spots, say 'I need to check if it's a fit'.",
+            "Get payment upfront. It commits them to the process."
+        ],
         action: "Post your 'Beta Launch' offer on LinkedIn/Email.",
-        prompt: "Draft a 'Beta Launch' email to my warm network. Frame the offer as an exclusive opportunity to be a 'Case Study Partner' at a preferred rate."
+        prompt: "Draft a 'Beta Launch' email to my warm network. Frame the offer as an exclusive opportunity to be a 'Case Study Partner' at a preferred rate. Emphasize that I only want people willing to do the work."
     },
     {
         day: 32,
         phase: 3,
-        title: "The 'Golden Hour' LinkedIn Strategy",
-        goal: "Master the 2025 Algorithm for maximum reach.",
-        concept: "LinkedIn's 2025 algorithm rewards 'Depth of Engagement' over likes. The first 60 minutes (Golden Hour) are critical. You need comments, not likes. Meaningful replies trigger the 'Viral Loop' to 2nd and 3rd-degree connections.",
-        content: "Post structure: 1. Hook (Controversial statement), 2. Story (Value), 3. Lesson, 4. Question (Open-ended). You MUST reply to every comment within the first hour with a question to double the comment count.",
-        readingList: [
-            { type: "Article", title: "LinkedIn Algorithm Research 2025", author: "Richard van der Blom", link: "Deep dive into engagement weightings (Comments > Likes x12)." }
+        title: "The Discovery Call: Diagnosis is the Sale",
+        goal: "Master the 45-minute sales call script. Stop pitching, start diagnosing.",
+        concept: "Amateurs pitch their solution in the first 10 minutes. Professionals diagnose the problem for 30 minutes. The sale is made in the *diagnosis*, not the prescription. If the client feels understood, they assume you have the answer.",
+        content: "The Script Structure: \n1. The Frame (Set the agenda/timing). \n2. The Situation (Where are they now?). \n3. The Gap (Where do they want to be?). \n4. The Pain (What happens if they don't fix it?). \n5. The Prescription (Can you help?).",
+        caseStudy: {
+            title: "The 80/20 Rule of Talking",
+            challenge: "A consultant was losing deals because he talked too much about his 'proprietary method'.",
+            solution: "He recorded a call and saw he spoke 70% of the time. He switched to a 'Doctor' frame, asking 'Why is this a problem *now*?' and 'What have you already tried?'.",
+            result: "He spoke 20% of the time. The client felt 'heard' and closed themselves. Closing rate jumped from 15% to 40%."
+        },
+        tips: [
+            "If you are talking for more than 2 minutes straight, you are losing.",
+            "Ask 'Labeling Questions': 'It sounds like you are frustrated with X...'",
+            "Don't give the price until you have established the cost of inaction."
         ],
-        tips: ["Don't put links in the post body (it kills reach). Put them in the bio or comments.", "Engage with 5 big creators BEFORE you post to warm up your account."],
-        action: "Post a 'Hand Raiser' content piece.",
-        prompt: "Write a LinkedIn post about 'The biggest lie in [Industry]'. End with a question that forces people to comment with their opinion."
+        action: "Write out your 5 key Diagnostic Questions.",
+        prompt: "Create a script for the 'Gap Analysis' part of the sales call. Generate 3 questions that force the client to articulate the financial pain of their current situation."
     },
     {
         day: 33,
         phase: 3,
-        title: "Advanced Direct Outreach (The 7-Touch System)",
-        goal: "Systematize follow-up to capture the 60% who don't reply.",
-        concept: "The money is in the follow-up. 1 email = 0 deals. 7 emails = Deals. You are not annoying; you are professional. 'Polite Persistence' signals reliability.",
-        content: "Sequence: Day 1 (Value), Day 3 (Idea), Day 7 (Case Study), Day 14 (News/Article), Day 30 (Break-up). Never just say 'Checking in'. Always add a 'Deposit' (Value) before asking for a 'Withdrawal' (Call).",
+        title: "Objection Handling: The Truth Plane",
+        goal: "Turn 'No' into 'Not Now' or 'Yes'.",
+        concept: "Objections are usually lies (or 'smoke screens') to protect the ego. 'It's too expensive' usually means 'I don't trust this will work'. Your job is to get to the 'Truth Plane'. \n\nNever argue. Agree and Pivot.",
+        content: "Common Objections: \n1. Price ('That's a lot'): Reply 'Compared to what? The cost of the problem?' \n2. Time ('I need to think'): Reply 'What specifically do you need to clarity on? usually it's X or Y.' \n3. Authority ('I need to ask my boss'): Reply 'Makes sense. What happens if they say no?'",
         caseStudy: {
-            title: "The 'Magic' 4th Email",
-            challenge: "Consultant gave up after 1 email.",
-            solution: "Implemented a 5-step sequence. The 4th email was: 'Are you still looking to solve [Problem] or have you put this on ice?'",
-            result: "The 'On Ice' email got a 40% reply rate because it gave people permission to say 'Not now' or realizing they need to act."
+            title: "The Price Pivot",
+            challenge: "Client said '$10k is too expensive'.",
+            solution: "Consultant didn't defend the price. He agreed. 'It is expensive. But you said this problem is costing you $50k/month. So isn't fixing it for $10k actually a discount?'",
+            result: "The client realized the math. The objection wasn't price; it was value. The deal closed."
         },
-        tips: ["Use a tool like Apollo or Lemlist to automate this.", "If they say 'Stop', you stop immediately.", "A 'No' is better than silence."],
-        action: "Set up a 4-email automated sequence.",
-        prompt: "Draft a 4-email sequence for [Target Persona]. Email 1: The Hook. Email 2: The Case Study. Email 3: The 'Did you see this?' (News). Email 4: The 'Is this priority?' check."
+        tips: [
+            "isolate the objection: 'Other than price, is there anything else stopping us from moving forward?'",
+            "Silence is your friend. After you answer, shut up.",
+            "Don't lower your price. Increase the value (or payment terms)."
+        ],
+        action: "Create a 'Battle Card' for the top 3 objections you expect.",
+        prompt: "Roleplay: I am the customer. I say 'I need to talk to my partner about this'. Give me a script to handle this objection without being pushy."
     },
     {
         day: 34,
         phase: 3,
-        title: "Referral Engineering",
-        goal: "Turn 1 client into 3 without asking for favors.",
-        concept: "Don't beg for referrals. Engineer them. The best time to ask is during the 'Point of Delight' (when they get a win).",
-        content: "The Script: 'I'm glad you loved the result. We actually have capacity for one more partner like you. Who is the smartest CEO you know who has this same problem? I'd love to send them a free copy of my book/audit.'",
+        title: "The Follow-Up System: The 'Nurture' Loop",
+        goal: "Capture the 60% of leads who don't buy immediately.",
+        concept: "The money is in the follow-up. 44% of salespeople give up after 1 follow-up. 80% result sales require 5 follow-ups. You are not annoying; you are professional. 'Polite Persistence' signals reliability.",
+        content: "The Sequence: \nDay 1 (+24hr): The 'Thank You + Resource' (No ask). \nDay 3: The 'Idea' (I was thinking about your problem...). \nDay 7: The 'Case Study' (Here is how X solved it). \nDay 30: The 'Break-up' (Are you still looking to fix this?).",
         caseStudy: {
-            title: "The Double-Sided Incentive",
-            challenge: "Clients were happy but lazy about referring.",
-            solution: "Consultant offered: 'If you refer someone who signs, I will give YOU a free strategy session ($1k value) and THEM a $500 discount.'",
-            result: "Referrals became a revenue driver for the clients. Win-Win-Win."
+            title: "The 'Magic' Break-up Email",
+            challenge: "Deal went dark for 3 weeks.",
+            solution: "Consultant sent: 'Hi [Name], I haven't heard back, so I assume this isn't a priority right now. I'll close your file. Let me know if you ever want to reopen it.'",
+            result: "The fear of 'file closed' triggered a reply in 10 minutes. 'No, wait! I've just been busy. Let's sign.'"
         },
-        tips: ["Make introductions easy: Write the email FOR them.", "Thank them publicly (LinkedIn shoutout) when they refer."],
-        action: "Identify 3 past colleagues/clients to run the 'Referral Script' on.",
-        prompt: "Draft an email to a past happy client asking for an introduction. Include a 'blurb' they can just copy-paste to their friend."
+        tips: [
+            "Always add value in follow-ups. Don't just 'check in'.",
+            "Use a tool (CRM) to remind you. Your brain will forget.",
+            "A 'No' is better than silence. It frees you up."
+        ],
+        action: "Set up a 4-email automated sequence template.",
+        prompt: "Draft a 'Break-up Email' that is polite but firm, aimed at getting a response from a ghosting client."
     },
     {
         day: 35,
         phase: 3,
-        title: "Networking: The 'Giver' Strategy",
-        goal: "Build partnerships with 'Centers of Influence' (COI).",
-        concept: "Don't network with peers (competitors). Network with COIs – people who serve your client *before* or *after* you. (e.g., If you are a specific Sales Consultant, partner with general VC Operating Partners).",
-        content: "Approach COIs with 'Deal Flow', not 'Need'. 'I have clients who need [COI's Service]. Can I vet you to see if you are a good match for them?' You become a source of revenue for them. Then they reciprocate.",
-        action: "List 10 COIs (e.g., Lawyers, Accountants, VC Partners) who serve your avatar.",
-        prompt: "Draft an outreach message to a 'Center of Influence' (e.g., a VC Partner) offering to refer MY clients to THEM."
+        title: "Referral Engineering: The Double Incentives",
+        goal: "Turn 1 client into 3 without begging.",
+        concept: "Don't beg for referrals. Engineer them. The best time to ask is during the 'Point of Delight' (when they get a win). Use a 'Double-Sided Incentive' so everyone wins.",
+        content: "The Script: 'I'm glad you loved the result. We have capacity for one more partner like you. If you introduce me to a peer, I'll give YOU a free strategy session ($1k value) and THEM a $500 discount.'",
+        caseStudy: {
+            title: "The Viral Loop",
+            challenge: "Clients were happy but lazy about referring.",
+            solution: "Consultant created a formal 'Partner Program'. 10% commission for referrals, or 10% credit towards future work.",
+            result: "Referrals became a revenue driver. One client referred 3 others just to get their own project for free."
+        },
+        tips: [
+            "Make introductions easy: Write the email FOR them to copy/paste.",
+            "Thank them publicly (LinkedIn shoutout) when they refer. Behavior rewarded is behavior repeated."
+        ],
+        action: "Identify 3 past colleagues/clients to run the 'Referral Script' on.",
+        prompt: "Draft a 'Ghostwritten Referral Email' that my client can send to their friend introducing me. It should make my client look good for knowing me."
     },
     {
         day: 36,
         phase: 3,
-        title: "Podcast Tour Strategy",
-        goal: "Borrow authority from established platforms.",
-        concept: "Guesting on podcasts is efficient: You speak for 1 hour to 1,000 qualified listeners. It is 'One-to-Many' selling.",
-        content: "Pitch the 'Story', not the 'Bio'. Hosts want content that makes *them* look smart. Pitch a 'Counter-Intuitive Insight' (e.g., 'Why everything you know about [Topic] is wrong').",
+        title: "Inbound Content Engine: The Repurposing Matrix",
+        goal: "Create 1 week of content in 1 hour. Stop being on the 'Hamster Wheel'.",
+        concept: "Most consultants burnout on content because they try to create net-new ideas daily. The Pros use a 'Waterfall' method. One core idea becomes 10 assets. Quality > Quantity, but Distribution > Creation.",
+        content: "The Waterfall: \n1. Record a 10-min video (Zoom) explaining a concept. \n2. Transcribe it (Otter.ai). \n3. Extract 3 LinkedIn text posts. \n4. Turn outcomes into a Twitter Thread. \n5. Turn the diagram into a Carousel. \nResult: 1 video = 5 posts.",
         caseStudy: {
-            title: "The Podcast Funnel",
+            title: "The Content Multiplier",
+            challenge: "Consultant spent 5 hours/week writing posts and hated it.",
+            solution: "She switched to recording one 'Client Q&A' video on Fridays (15 mins). She hired a VA ($500/mo) to chop it into 5 text posts and 3 TikToks.",
+            result: "She posted daily while spending 80% less time. Inbound leads tripled because of consistency."
+        },
+        readingList: [
+            { type: "Book", title: "Content Inc.", author: "Joe Pulizzi", link: "Building an audience first, product second." }
+        ],
+        tips: [
+            "Don't worry about platform nuances yet. Good copy works everywhere.",
+            "Visuals stop the scroll. Use a whiteboard or simple diagrams in your posts.",
+            "The best content answers a question a client asked you yesterday."
+        ],
+        action: "Create your 'Waterfall' workflow map.",
+        prompt: "Take this core idea: '[Insert Core Idea]'. Break it down into: 1. A 'How-To' listicle, 2. A 'Contrarian' opinion, 3. A 'Personal Story' metaphor."
+    },
+    {
+        day: 37,
+        phase: 3,
+        title: "Strategic Partnerships: O.P.A. (Other People's Audiences)",
+        goal: "Get leads from people who already have them. Leverage trust.",
+        concept: "Cold outreach builds trust 1-by-1. Partnerships borrow trust 1-to-many. Find the 'Centers of Influence' (COI) who serve your client *before* or *after* you. (e.g., If you are a Sales Consultant, partner with Recruiters).",
+        content: "The Pitch: 'I help your clients solve the problem that happens *after* you finish. If their sales team fails, they blame your recruiting. I fix the sales team so your hires stick. Can we chat?' \nYou protect their reputation.",
+        caseStudy: {
+            title: "The Lawyer Loop",
+            challenge: "A Tax Consultant needed high-net-worth clients.",
+            solution: "He didn't market to clients. He marketed to *Divorce Attorneys*. He told them 'I can help your clients find hidden assets'.",
+            result: "Attorneys referred him 100% of their clients. He built a $500k practice with zero ads, just 5 relationships."
+        },
+        action: "List 10 COIs (e.g., VC Partners, Software Vendors, Agencies) who serve your avatar.",
+        prompt: "Draft an outreach message to a 'Center of Influence' (e.g., a VC Partner) offering to refer MY clients to THEM first to build reciprocity."
+    },
+    {
+        day: 38,
+        phase: 3,
+        title: "Pipeline Hygiene: Deal Velocity",
+        goal: "Stop 'Zombie Deals' from clogging your mental RAM.",
+        concept: "Your memory is not a CRM. You need a visual pipeline: Lead -> Qualified -> Proposal Sent -> Negotiation -> Closed Won. \n\nKey Metric: 'Time in Stage'. The longer a deal sits, the lower the probability of closing. Deals are like fish; they rot after 3 days.",
+        content: "The '30-Day Flush' Rule: If a prospect hasn't moved stages in 30 days, move them to 'Nurture' or 'Lost'. A small, clean pipeline is better than a big, fake one. It forces you to hunt for fresh leads.",
+        tips: [
+            "Block 15 mins every Friday for 'Pipeline Review'. NO exceptions.",
+            "Update the 'Next Steps' date for every active deal. If there is no next step, it's dead.",
+            "Categorize reasons for 'Closed Lost' (e.g., Price, Timing, Competitor) to spot trends."
+        ],
+        action: "Set up your pipeline stages in Notion/HubSpot/Excel.",
+        prompt: "Define the 'Exit Criteria' for each stage of my pipeline. What exactly needs to happen (e.g., 'Budget Confirmed') to move a deal from 'Qualified' to 'Proposal'?"
+    },
+    {
+        day: 39,
+        phase: 3,
+        title: "Authority Borrowing: The Podcast Tour",
+        goal: "Speak for 1 hour to 1,000 qualified buyers.",
+        concept: "Guesting on podcasts is the highest ROI 'free' marketing. You borrow the host's trust. But don't pitch your service; pitch your 'Contrarian Insight'. Hosts want content that makes them look smart, not a commercial.",
+        content: "The Pitch Template: \nSubject: 'Potential episode for [Podcast Name]: Why [Standard Advice] is wrong'. \n'Hi [Host], I love your intuitive questions. I have a data-backed theory that [Contrarian Idea] which your audience might find provocative. Happy to share my [Lead Magnet] with your listeners too.'",
+        caseStudy: {
+            title: "The Niche Mic",
             challenge: "Unknown consultant wanted enterprise leads.",
-            solution: "She ignored big podcasts. she targeted niche podcasts with 500 listeners but *strictly* for CTOs.",
+            solution: "She ignored 'The Tim Ferriss Show'. She targeted niche podcasts with only 500 listeners but *strictly* for CTOs.",
             result: "She did 10 interviews. Got 50 leads. 5 closed. Big audiences are vanity; Niche audiences are sanity."
         },
         readingList: [
             { type: "Resource", title: "MatchMaker.fm", link: "Tinder for Podcasters and Guests." }
         ],
-        tips: ["Have a dedicated landing page for listeners (yourname.com/podcastname).", "Offer a specific Lead Magnet during the show."],
-        action: "Pitch 5 niche podcasts.",
+        tips: [
+            "Buy a $50 microphone (USB). Audio quality equals perceived expertise.",
+            "Have a dedicated landing page for listeners (yourname.com/podcastname) to track ROI."
+        ],
+        action: "Pitch 5 niche podcasts using the 'Contrarian' angle.",
         prompt: "Write a podcast pitch email. Subject: 'Potential episode topic: [Contrarian Idea]'. Body: 3 bullet points of what I can teach their audience."
-    },
-    {
-        day: 37,
-        phase: 3,
-        title: "Authority Content: The 'Whitepaper'",
-        goal: "Create a 'Thud Factor' asset.",
-        concept: "A 'Thud Factor' asset is something so substantial that when it hits the desk (or inbox), it makes a 'Thud'. A 20-page proprietary report or 'State of the Industry' guide.",
-        content: "Data is authority. Run a simple survey (Day 6), aggregate the data, and publish 'The 2026 [Industry] Benchmark Report'. People quote data. They cite you. You become the expert.",
-        caseStudy: {
-            title: "The Annual Report Strategy",
-            challenge: "Consultancy needed to differentiate.",
-            solution: "Published the 'Future of FinTech HR' report annually.",
-            result: "Media outlets cited the report. They didn't need to do outbound; leads came to download the data."
-        },
-        action: "Outline the chapters of a potential 'Industry Report'.",
-        prompt: "Brainstorm 5 topics for a 'State of the Industry' report for [Target Niche] that would be highly citeable by journalists."
-    },
-    {
-        day: 38,
-        phase: 3,
-        title: "CRM & Pipeline Hygiene",
-        goal: "Manage the chaos. 'If it's not in Salesforce, it didn't happen'.",
-        concept: "Your memory is not a CRM. You need a visual pipeline: Lead -> Qualified -> Proposal Sent -> Negotiation -> Closed Won. Track 'Time in Stage'.",
-        content: "Deal Decay: The longer a deal sits in a stage, the lower the probability of clear. Implement a '30-Day Flush' rule. If they don't move in 30 days, move them to 'Nurture' to clear the pipeline.",
-        tips: ["Block 15 mins every Friday for 'Pipeline Review'.", "Update the 'Next Action Date' for every active deal."],
-        action: "Set up your pipeline stages in Notion/HubSpot/Excel.",
-        prompt: "Define the 'Exit Criteria' for each stage of my pipeline. What exactly needs to happen to move a deal from 'Qualified' to 'Proposal'?"
-    },
-    {
-        day: 39,
-        phase: 3,
-        title: "Video Sales Letters (VSL)",
-        goal: "Clone yourself. Sell while you sleep.",
-        concept: "A VSL doing the 'Diagnostic Pitch' (Day 19) is powerful. Record a 5-minute video: 'Who this is for, The Problem, The Solution, The Social Proof, The CTA'.",
-        content: "Embed this video on your booking page. It 'pre-sells' the prospect. By the time they get on the call, they know your face, voice, and methodology.",
-        tips: ["Don't use a script; use bullet points. Eye contact matters.", "Use Loom or Zoom. Authenticity > Production Value."],
-        action: "Script and Record a 5-min VSL.",
-        prompt: "Script the opening 60 seconds of a Video Sales Letter. Hook the viewer immediately with a 'You know how...' problem statement."
     },
     {
         day: 40,
         phase: 3,
-        title: "Data Analysis & Optimization",
-        goal: "Fix the leaky bucket.",
-        concept: "Don't pour more water (leads) into a leaky bucket (funnel). Analyze: Open Rates (Subject Line problem), Reply Rates (Offer problem), Call Booking Rate (Trust problem), Close Rate (Sales Skill problem).",
-        content: "Diagnose the bottleneck. If 100 people visit your site and 0 book, your site copy is the bottleneck. If 10 people book and 0 show up, your reminder system is the bottleneck.",
+        title: "Funnel Forensics: Data Analysis",
+        goal: "Fix the leaky bucket before pouring in more water.",
+        concept: "Marketing is math. Don't guess; measure. If you are not hitting your revenue goal, the math will tell you where the break is. \n\nFormula: Traffic x Conversion x Price = Revenue.",
+        content: "The 3 Bottlenecks: \n1. Traffic Problem: Not enough eyeballs (Fix: Post more, Ads). \n2. Conversion Problem: People look but don't book (Fix: Offer, Copy, Video). \n3. Sales Problem: People book but don't buy (Fix: Script, Offer, Skills). \nSolve the right problem.",
         caseStudy: {
             title: "The 1% Tweak",
-            challenge: "High traffic, low bookings.",
-            solution: "Changed the CTA from 'Request a Consultation' (Work) to 'Get Your Free Audit' (Value).",
-            result: "Conversion rate doubled. Same traffic, 2x revenue."
+            challenge: "Consultant had high traffic but low bookings.",
+            solution: "He changed the CTA button on his site from 'Request a Free Consultation' (Work) to 'Get Your 3-Step Audit' (Value).",
+            result: "Conversion rate doubled from 1% to 2%. Same traffic, 2x revenue."
         },
-        action: "Create a 'Metrics Dashboard' sheet.",
-        prompt: "List the 5 Key Performance Indicators (KPIs) I should track weekly to measure the health of my consulting marketing funnel."
+        action: "Create a 'Metrics Dashboard' sheet (Traffic, Leads, Calls, Sales).",
+        prompt: "List the 5 Key Performance Indicators (KPIs) I should track weekly to measure the health of my consulting marketing funnel. Explain how to calculate 'Customer Acquisition Cost' (CAC)."
     },
     {
         day: 41,
         phase: 3,
-        title: "The 'Hand-Raising' Post",
-        goal: "Harvest the demand you created.",
-        concept: "Directly ask for the sale on social. 'I am looking for 3 [Avatar] who want to [Result]. Drop a 'Me' below'.",
-        content: "These posts will get lower engagement (likes) but high revenue (leads). Don't judge them by vanity metrics. Judge them by DMs.",
-        tips: ["Follow up with every commenter via DM immediately.", "Scarcity works ('Only 3 spots')."],
-        action: "Draft and schedule a Hand-Raising post.",
-        prompt: "Write a direct offer social media post calling out [Avatar] to work with me next month. Use the 'If you are X, I can help you Y' formula."
+        title: "The 'Hand-Raising' Post: Harvesting Demand",
+        goal: "Convert your silent followers into leads with one post.",
+        concept: "You have been giving value for weeks. Now you make a withdrawal. The 'Hand-Raising' post is a direct Call to Action (CTA). It filters out the tire-kickers and identifies the buyers. \n\nFormula: 'I am looking for X [Avatar] who want [Result] in [Timeframe].'",
+        content: "The Script: \n'I'm looking for 3 B2B Founders who want to add $50k MRR in the next 90 days without running ads. \nI have a new case study showing exactly how we did this for [Client]. \nComment 'SCALE' below and I'll send you the details.' \n\nNote: Do not post the link. Make them comment. It boosts the algorithm.",
+        tips: [
+            "Follow up with every commenter via DM immediately. 'Hey, saw your comment. Sending the case study now...'",
+            "Scarcity works ('Only 3 spots'). Keep it real.",
+            "Do this max once a week. Don't exhaust your audience."
+        ],
+        action: "Draft and post a 'Hand-Raising' offer on LinkedIn.",
+        prompt: "Write a direct offer social media post calling out [Avatar] to work with me next month. Use the 'If you are X, I can help you Y' formula. Include a specific scarcity element."
     },
     {
         day: 42,
         phase: 3,
-        title: "Handling Ghosting (The Breakup)",
-        goal: "Revive dead leads or kill them cleanly.",
-        concept: "Ghosting is usually avoiding conflict, not a 'No'. The 'Breakup Email' uses 'Loss Aversion'.",
-        content: "Subject: 'Permission to close your file?'. Body: 'Hi [Name], haven't heard back. I assume this isn't a priority right now? I'll close your file to stop bothering you.'",
-        result: "This gets a 70% reply rate. People hate having files closed. They reply 'No! I've just been busy!'",
-        readingList: [
-            { type: "Book", title: "Never Split the Difference", author: "Chris Voss", link: "Tactical empathy and 'No-oriented' questions." }
-        ],
-        action: "Send the 'Breakup Email' to 3 unresponsive leads.",
-        prompt: "Draft a polite but firm 'Breakup Email' that removes the pressure and asks for a simple 'No'."
+        title: "Reviving Dead Leads: The 9-Word Email",
+        goal: "Revive leads from 6 months ago with one sentence.",
+        concept: "Most 'dead' leads aren't dead; they are just dormant. They didn't buy because the timing was wrong. \n\nThe Strategy: Send a 'Dean Jackson' style 9-word email. No fluff. No 'checking in'. Just a question about the problem.",
+        content: "Subject: [Client Name] \nBody: 'Are you still looking to help with [Problem]?' \n\nExample: 'Are you still looking to hire a VP of Sales?' \n\nResult: This gets a 50%+ reply rate because it requires a simple Yes/No. If 'Yes', you re-open the deal. If 'No', you clean your CRM.",
+        caseStudy: {
+            title: "Finding $30k in the Trash",
+            challenge: "Consultant had 200 'dead' leads in his CRM from last year.",
+            solution: "Sent the 9-word email: 'Are you still trying to migrate to AWS?'",
+            result: "25 replies. 5 booked calls. 1 closed deal for $30k. It took 5 minutes to send."
+        },
+        action: "Export your 'Lost' leads and send the 9-word email.",
+        prompt: "Draft the 9-word email question for my service. It must address the core 'Result' they wanted."
     },
     {
         day: 43,
         phase: 3,
-        title: "Handling Objections (The Sandler Style)",
-        goal: "Turn objections into truth.",
-        concept: "Objections ('Too expensive', 'Not now') are often lies to protect feelings. Use the 'Struggle Step'. agrees with the objection to lower defenses.",
-        content: "Client: 'It's too expensive.' You: 'I hear you. It is a significant investment. Honestly, if I were you, I might feel the same. (Pause). taking price off the table, do you believe this solution would actually WORK for you?'",
-        tips: ["Don't fight the objection. Isolate it.", "The first objection is rarely the real one."],
-        action: "Script responses to: 'Price', 'Timing', and 'Talk to Partner'.",
-        prompt: "Script a response to the objection 'We are going to try to do this internally first'."
+        title: "Negotiation Psychology: Trading vs. Conceding",
+        goal: "Protect your price and your margin.",
+        concept: "Amateur negotiators concede (give away price to get the deal). Professional negotiators trade (give away price to get better terms). \n\nRule: Never give a discount without taking something back.",
+        content: "The Trading Matrix: \nIf they ask for a lower price, YOU ask for: \n1. Faster payment (100% upfront). \n2. Longer commitment (12 months vs 3). \n3. A Case Study / Video Testimonial. \n\nScript: 'I can do that price, IF we can settle the invoice fully by Friday. Does that work?'",
+        tips: [
+            "The person who cares less wins. Be willing to walk away.",
+            "Silence is power. When they ask for a discount, pause for 5 seconds. It makes them nervous.",
+            "Never split the difference. It signals you were lying about your first price."
+        ],
+        readingList: [
+            { type: "Book", title: "Never Split the Difference", author: "Chris Voss", link: "Tactical empathy and negotiation." }
+        ],
+        action: "Create your 'Concession List'. What are you willing to trade?",
+        prompt: "List 5 things I can ask for in exchange for a discount (e.g., specific payment terms, case studies, referrals)."
     },
     {
         day: 44,
         phase: 3,
-        title: "Refining the Pitch Deck",
-        goal: "Visual persuasion.",
-        concept: "Your deck is a visual aid, not a teleprompter. 5 Slides max: 1. The 'Villain' (Problem), 2. The 'Promised Land' (Result), 3. The 'Vehicle' (Your Process), 4. The 'Proof' (Case Studies), 5. The 'Ask' (Options).",
-        content: "Visuals > Text. Use charts showing the 'Cost of Inaction' vs 'ROI of Action'.",
-        action: "Create your 5-slide 'Sales Logic' deck.",
-        prompt: "Describe the visual I should use on the 'Cost of Inaction' slide to scare the client (ethically) into acting now."
+        title: "The 'Zero-Remorse' Onboarding",
+        goal: "Eliminate Buyer's Remorse and speed up Time-to-Value.",
+        concept: "The most dangerous time in a client relationship is the 24 hours AFTER they sign. They are thinking 'Did I make a mistake?'. You must flood them with certainty.",
+        content: "The 'Welcome Box' Strategy: \n1. Immediate automated email ('Confetti' moment). \n2. The ' Kickoff Kit' (PDFs, slack invite) sent within 5 mins. \n3. A personal video from you ('I'm so excited to work on X'). \n\nGoal: They should feel 'Wow, this is pro' before the real work even starts.",
+        caseStudy: {
+            title: "The Speed Win",
+            challenge: "Client signed but felt anxious because kickoff was 1 week away.",
+            solution: "Consultant sent a 'Quick Win' audit within 2 hours of signing. 'I peeked at your data and found this quick fix for you to do while you wait'.",
+            result: "Client was blown away. Zero remorse. They told 3 friends about the 'service' before the project started."
+        },
+        action: "Map out your first 24 hours of client experience.",
+        prompt: "Design a 'Welcome Email' sequence that delivers a 'Quick Win' value nugget immediately after signing."
     },
     {
         day: 45,
         phase: 3,
-        title: "Phase 3 Review",
-        goal: "Pipeline Health Check.",
-        concept: "You have traffic (LinkedIn/Email/Referrals). You have a system (CRM). You have a closer (Deck/Scripts).",
-        action: "Audit: Do you have 3x your revenue goal in the pipeline? (e.g., Goal $10k -> Pipeline $30k). If not, go back to Day 33.",
-        prompt: "Create a 'Marketing Health' checklist to review every Friday afternoon."
+        title: "Phase 3 Review: The Marketing Engine",
+        goal: "Audit your Pipeline Health. Are you hunting or just hoping?",
+        concept: "You have traffic (Content/Partners). You have conversion (Scripts/Lead Magnets). You have sales (Negotiation). \n\nKey Rule: You need 3x your Revenue Goal in your Pipeline. If you want to make $20k/mo, you need $60k in active proposals, because you will close 33%.",
+        action: "Pipeline Audit: \n1. Count value of 'Active Proposals'. \n2. Divide by 3. \n3. Is this number enough? If no, go back to Day 31 (Outreach).",
+        prompt: "Create a 'Marketing Health' checklist to review every Friday afternoon. Include 'Leads Added', 'Calls Booked', and 'Proposals Sent'."
     },
     // PHASE 4: SALES & SCALE (Days 46-60)
     {
         day: 46,
         phase: 4,
-        title: "Sales Call Prep: The Pre-Game Ritual",
+        title: "Sales Call Prep: The 'Battlecard'",
         goal: "Win the call before it starts.",
-        concept: "Amateurs 'wing it'. Pros prepare. You need a 'Battlecard' for each prospect: Know their revenue, their recent news, and their #1 competitor before you dial.",
-        content: "The Ritual: 1. Review the Battlecard. 2. 2 minutes of visualization (Visualizing the 'Yes'). 3. Send a 'Reminder' email 1 hour before with an agenda (shows leadership).",
-        tips: ["If you are nervous, you are focusing on yourself. Focus on helping them.", "Stand up while taking the call. It projects more energy."],
-        action: "Create a 'Pre-Call Battlecard' template.",
-        prompt: "Create a checklist of 5 things I must know about a prospect before getting on a sales call to avoid looking unprepared."
+        concept: "Amateurs 'wing it'. Pros prepare. You need a 'Battlecard' for each prospect: Know their revenue, their recent news, and their #1 competitor before you dial. 'Preparation breeds confidence.'",
+        content: "The Ritual: \n1. Review the Battlecard (5 mins). \n2. Visualization (2 mins): See the end of the call where they say 'Yes'. \n3. The 'Reminder' Email (1 hour before): 'Looking forward to our chat. Here is the agenda: [Link]'. Shows leadership.",
+        caseStudy: {
+            title: "The Wiki Tactic",
+            challenge: "Consultant kept getting blindsided by basic questions.",
+            solution: "Started spending 15 mins reading the prospect's Wikipedia/About page and Recent News. He opened a call with: 'Congrats on the Series B fundraising'.",
+            result: "The prospect immediately respected him as a peer, not a vendor. Close rate increased 20%."
+        },
+        tips: ["If you are nervous, focus on helping them, not selling them.", "Stand up while taking the call. It projects more energy."],
+        action: "Create a 'Pre-Call Battlecard' template in Notion.",
+        prompt: "Create a checklist of 5 things I must know about a prospect before getting on a sales call (e.g., recent hires, funding news)."
     },
     {
         day: 47,
@@ -967,20 +1041,20 @@ export const curriculumData = [
         title: "Closing Techniques: The 'Assumptive' Close",
         goal: "Ask for the money without being weird.",
         concept: "Don't ask 'Do you want to buy?'. Ask 'When should we get started?'. Assume the sale is already made because the logic holds up.",
-        content: "Transition Phrases: 'Based on what you told me, this seems like a perfect fit. Shall we look at the calendar for a kickoff date?' OR 'Would you prefer to pay via Stripe or Wire Transfer?'",
-        tips: ["After you ask for the sale, BE SILENT. The next person to speak loses negotiation power.", "If they hesitate, ask 'What is the hesitation?' directly."],
+        content: "Transition Phrases: \n1. 'Based on what you told me, this seems like a perfect fit. Shall we look at the calendar for a kickoff date?' \n2. 'Would you prefer to pay via Stripe or Wire Transfer?' \n\nNote: After you ask, SHUT UP. The next person to talk loses.",
+        tips: ["Silence creates pressure. Let the client break it.", "If they hesitate, ask 'What is the hesitation?' directly."],
         action: "Script 3 'Transition to Close' phrases.",
-        prompt: "Script a smooth transition from 'Presentation' to 'Payment' that doesn't feel pushy."
+        prompt: "Script a smooth transition from the 'Presentation' phase to the 'Payment' phase that doesn't feel pushy."
     },
     {
         day: 48,
         phase: 4,
-        title: "Contract Hygiene",
-        goal: "Protect the downside.",
-        concept: "The 'SOW' (Scope of Work) is more important than the MSA (Master Services Agreement). The MSA covers law; the SOW covers expectations. Most disputes happen because the SOW was vague.",
-        content: "Must-Haves: 1. Payment Schedule (50% upfront is standard). 2. Kill Fee (If they cancel, you keep the deposit). 3. IP Clause (Who owns the work?).",
+        title: "Contract Hygiene: The 'Scope Shield'",
+        goal: "Protect the downside. Prevent 'Scope Creep'.",
+        concept: "The 'SOW' (Scope of Work) is more important than the MSA. The MSA covers law; the SOW covers expectations. Most disputes happen because the SOW was vague.",
+        content: "Must-Haves: \n1. Payment Schedule (50% upfront is standard). \n2. Kill Fee (If they cancel, you keep the deposit). \n3. The 'Scope Shield': A clause stating 'Any requests outside this list will require a separate Change Order'.",
         readingList: [
-            { type: "Resource", title: "Bonsai / Docusign", link: "Tools for electronic signatures." }
+            { type: "Resource", title: "Bonsai / PandaDoc", link: "Tools for electronic signatures." }
         ],
         action: "Review your Contract Template against a 'Best Practices' list.",
         prompt: "Draft a 'Scope Creep' clause for my contract that requires a separate Change Order for any new requests."
@@ -989,9 +1063,9 @@ export const curriculumData = [
         day: 49,
         phase: 4,
         title: "The 'White Glove' Onboarding",
-        goal: "Buyer's Remorse is your enemy. Kill it.",
+        goal: "Buyer's Remorse is your enemy. Kill it instantly.",
         concept: "The most dangerous time is the 24 hours AFTER they pay. They are thinking 'Did I make a mistake?'. You must flood them with certainty.",
-        content: "Automated Sequence: 1. Payment Receipt (Immediate). 2. 'Welcome to the Family' video from specific founder (10 mins later). 3. 'The Roadmap' email (1 hour later) outlining exactly what happens next.",
+        content: "The Automation: \n1. Payment Receipt (Immediate). \n2. 'Welcome to the Family' video from YOU (10 mins later). \n3. 'The Roadmap' email (1 hour later) outlining exactly what happens next. \n4. The 'Physical Box' (Optional but powerful): Send a book or mug.",
         caseStudy: {
             title: "The Welcome Box",
             challenge: "High churn in month 1.",
@@ -1004,31 +1078,37 @@ export const curriculumData = [
     {
         day: 50,
         phase: 4,
-        title: "The Kickoff Call",
-        goal: "Set the trajectory.",
-        concept: "This is not a 'social call'. It is a 'Project Management' call. You are the Captain. Set the rules of engagement.",
-        content: "Agenda: 1. Introductions. 2. Success Metric Confirmation (Re-confirm why we are here). 3. Communication Protocol (No texting, email only). 4. First Milestone.",
+        title: "The Kickoff Call: The Commander",
+        goal: "Set the trajectory. You are the Captain.",
+        concept: "This is not a 'social call'. It is a 'Project Management' call. You are the Captain. Set the rules of engagement immediately.",
+        content: "Agenda: \n1. Introductions (Who is who). \n2. Success Metric Confirmation (Re-confirm why we are here). \n3. Communication Protocol ('I don't text. Email only'). \n4. First Milestone (Quick Win).",
         tips: ["Record this call.", "Ask: 'What is one thing that could make this project fail?' (Pre-mortem)."],
         action: "Create a 'Kickoff Deck' template.",
-        prompt: "Create an agenda for a 45-minute Kickoff Call that establishes me as the authority figure."
+        prompt: "Create an agenda for a 45-minute Kickoff Call that establishes me as the authority figure but keeps the vibe collaborative."
     },
     {
         day: 51,
         phase: 4,
-        title: "Delivery Management: Project Hygiene",
-        goal: "Green lights only.",
-        concept: "Weekly status updates are non-negotiable. Even if nothing happened, send an update saying 'Nothing happened, waiting on X'. Silence = Anxiety.",
-        content: "The 'Friday Update': 1. What we did this week. 2. What we are doing next week. 3. Blockers/Needs from you. Send this every Friday at 9am.",
+        title: "Communication Protocol: The 'Friday Update'",
+        goal: "Green lights only. Eliminate 'Where are we?' texts.",
+        concept: "Clients get anxious when they don't hear from you. Weekly status updates are non-negotiable. Even if nothing happened, send an update saying 'Waiting on X'. Silence = Anxiety.",
+        content: "The 'Friday Update' (Send by 9am): \n1. What we accomplished this week (Green). \n2. What we are doing next week (Yellow). \n3. Blockers/Needs from you (Red). \n\nThis single email eliminates 80% of client meetings.",
+        caseStudy: {
+            title: "The Silence Killer",
+            challenge: "Client kept texting the consultant at 9pm asking for updates.",
+            solution: "Consultant implemented the 'Friday Update' and told the client 'I will always update you on Friday. If you don't hear from me, assume we are on track'.",
+            result: "Texts stopped. Client trust went up. Consultant got their evenings back."
+        },
         action: "Draft the 'Friday Update' email template.",
         prompt: "Draft a concise 'Weekly Status Update' email that respects the client's time but keeps them informed."
     },
     {
         day: 52,
         phase: 4,
-        title: "Scope Creep & Boundaries",
-        goal: "Don't work for free.",
-        concept: "Clients will push boundaries. It's human nature. If you say 'Yes' to a small favor, you open the door to a big favor. Use the 'Change Order' as a shield.",
-        content: "Script: 'I'd love to help with that! Since it's outside our current Scope, I'll whip up a quick Change Order for that additional piece. It will be $X. Shall I send it over?'",
+        title: "Scope Creep & Boundaries: The 'Change Order'",
+        goal: "Don't work for free. Train your clients.",
+        concept: "Clients will push boundaries. It's human nature. If you say 'Yes' to a small favor, you open the door to a big favor. Use the 'Change Order' as a professional shield, not a weapon.",
+        content: "The Script: 'I'd love to help with that! Since it's outside our current Scope, I'll whip up a quick Change Order for that additional piece. It will be $X. Shall I send it over?' \n\nOutcome: They either pay you (Win) or drop the request (Win).",
         caseStudy: {
             title: "The 'Free' Favor",
             challenge: "Consultant kept doing 'little things' for free. Lost 10 hours/week.",
@@ -1036,101 +1116,101 @@ export const curriculumData = [
             result: "Clients respected him MORE. They stopped asking for junk and focused on the big picture."
         },
         action: "Practice saying the 'Change Order' script out loud.",
-        prompt: "Script a polite but firm email refusing a client request that is clearly out of scope."
+        prompt: "Script a polite but firm email refusing a client request that is clearly out of scope, offering a paid solution instead."
     },
     {
         day: 53,
         phase: 4,
-        title: "Hiring: The First VA",
-        goal: "Buy back your time.",
-        concept: "You are the CEO, not the janitor. You should not be scheduling meetings or invoicing. Hire a Virtual Assistant (VA) for $10-20/hr to handle the 'Back Office'.",
-        content: "The 'SOP' (Standard Operating Procedure). You cannot hire until you have documented the process. Record yourself doing the task on Loom first.",
+        title: "Hiring: The 'Time Buyback' (First VA)",
+        goal: "Buy back your time. Stop doing $10/hr work.",
+        concept: "You are the CEO, not the admin. You should not be scheduling meetings or invoicing. Hire a Virtual Assistant (VA) for $10-20/hr to handle the 'Back Office'. \n\nRule: If you can pay someone $15/hr to do it, and you earn $100/hr, you are losing money by doing it yourself.",
+        content: "First Tasks to outsource: 1. Inbox Triage. 2. Calendar Scheduling. 3. Invoicing/Expense tracking. 4. Research.",
         readingList: [
             { type: "Book", title: "Buy Back Your Time", author: "Dan Martell", link: "The playbook for hiring to scale." }
         ],
         action: "List the 3 tasks you hate doing most. These are your first SOPs.",
-        prompt: "Write a job description for a Virtual Assistant to handle my email, calendar, and invoicing."
+        prompt: "Write a job description for a Virtual Assistant to handle my email, calendar, and invoicing. Be specific about the tools I use."
     },
     {
         day: 54,
         phase: 4,
-        title: "Documenting SOPs",
-        goal: "Build an asset, not a job.",
-        concept: "If it's in your head, it's not a business; it's a job. Get it out of your head. 'The E-Myth' principle.",
-        content: "Structure: 1. Goal. 2. Tools Needed. 3. Step-by-Step Instructions (with Screenshots). 4. Definition of Done.",
-        tips: ["Use Loom. Video is faster than writing.", "Store Sops in Notion."],
+        title: "Documenting SOPs: The 'Bus Factor'",
+        goal: "Build an asset, not a job. If you get hit by a bus, can the business run?",
+        concept: "If it's in your head, it's not a business; it's a job. Get it out of your head. 'The E-Myth' principle. You cannot hire until you have the 'Recipe Book'.",
+        content: "The SOP Structure: \n1. Goal (Why we do this). \n2. Tools Needed (Links). \n3. Step-by-Step Instructions (Screen recording > Text). \n4. Definition of Done (How do we know it's right?).",
+        tips: ["Use Loom. Video is faster than writing.", "Store Sops in Notion. Make them searchable."],
         action: "Create your first 'Process Doc' for client onboarding.",
-        prompt: "Create a template for a Standard Operating Procedure (SOP) document."
+        prompt: "Create a template for a Standard Operating Procedure (SOP) document that I can give to a new VA."
     },
     {
         day: 55,
         phase: 4,
-        title: "Mid-Project Review",
-        goal: "Secure the renewal early.",
-        concept: "Don't wait until the end to ask for more work. Do a 'Mid-Term' review. Show them the wins so far.",
-        content: "The 'Temperature Check'. 'On a scale of 1-10, how happy are you? What would make it a 10?'. This uncovers hidden issues before they kill the deal.",
+        title: "Mid-Project Review: The 'Temperature Check'",
+        goal: "Secure the renewal early. Avoid surprises.",
+        concept: "Don't wait until the end to ask for more work. Do a 'Mid-Term' review. Show them the wins so far and secure new commitments.",
+        content: "The Script: 'We are halfway through. On a scale of 1-10, how happy are you with the pace? What would make it a 10?' \n\nThis uncovers hidden issues before they kill the renewal. If they say '8', ask 'What gets us to a 10?'. Then do that.",
         action: "Schedule a Mid-Project Review with your beta clients.",
-        prompt: "Draft an email inviting the client to a 'Strategy Review' call halfway through the project."
+        prompt: "Draft an email inviting the client to a 'Strategy Review' call halfway through the project. excessive it as a 'Optimization' call."
     },
     {
         day: 56,
         phase: 4,
-        title: "The Upsell: Retainers",
+        title: "The Upsell: From 'Project' to 'Retainer'",
         goal: "Recurring Revenue > One-Time Revenue.",
-        concept: "The hardest part is getting the client. Once you have them, keep them. Move them from 'Project' to 'Retainer'.",
-        content: "The 'Maintenance Mode' offer. 'We built the system (Project). Now, for $X/month, we will keep it optimized (Retainer).' It's insurance for them.",
+        concept: "The hardest part is getting the client. Once you have them, keep them. Move them from 'One-Off Project' to 'Monthly Retainer'. \n\nLogic: 'We built the car (Project). Now you need a driver/mechanic (Retainer) to keep it winning.'",
+        content: "The 'Maintenance Mode' offer: \n1. Optimize: 'We will tweak the system monthly.' \n2. Support: 'We are on standby for issues.' \n3. Reporting: 'We track the data.' \n\nPrice it at 20% of the project fee per month.",
         caseStudy: {
             title: "The SEO Retainer",
             challenge: "SEO Consultant sold $5k audits. Every month started at $0.",
-            solution: "Added a 'content implementation' retainer for $2k/mo.",
+            solution: "Added a 'Content Implementation' retainer for $2k/mo.",
             result: "Converted 50% of audit clients. Built a recurring base of $10k/mo. Stability achieved."
         },
         action: "Design a 'Phase 2' Retainer offer.",
-        prompt: "Brainstorm 3 'Retainer' ideas that logically follow my main service. What ongoing value can I provide?"
+        prompt: "Brainstorm 3 'Retainer' ideas that logically follow my main service. What ongoing value can I provide (e.g., Reporting, Optimization, Coaching)?"
     },
     {
         day: 57,
         phase: 4,
-        title: "Harvesting Testimonials",
-        goal: "Automate social proof.",
-        concept: "The best time to ask is immediately after a 'Win'. Don't ask 'Can you write a testimonial?'. Ask 'Can you answer these 3 questions?'.",
-        content: "The Questions: 1. What was the problem before? 2. What was the experience working with us? 3. What is the specific result now? (Hero's Journey arc).",
-        tips: ["Video is 10x better than text.", "Offer to draft it for them to approve."],
-        action: "Create a 'Testimonial Request' form.",
-        prompt: "Draft an email asking a happy client for a video testimonial. Include a gentle incentive (e.g., 'I'll feature you to my network')."
+        title: "Harvesting Testimonials: The 'Case Study' Machine",
+        goal: "Automate social proof. Stop begging.",
+        concept: "The best time to ask is immediately after a 'Win'. Don't ask 'Can you write a testimonial?'. Ask 'Can you answer these 3 questions?'. Then YOU write the case study.",
+        content: "The Video Ask: 'You crushed it this month. Can we jump on Zoom for 10 mins to debrief the win? I'll record it.' \n\nQuestions: 1. What was the pain before? 2. What was the experience during? 3. What is the result now (Hard #s)?",
+        tips: ["Video is 10x better than text.", "Offer to draft the text for them to approve if they are camera shy."],
+        action: "Draft a 'Testimonial Request' email template.",
+        prompt: "Draft an email asking a happy client for a video testimonial interview. Frame it as a 'Success Story Feature' to stroke their ego."
     },
     {
         day: 58,
         phase: 4,
-        title: "Referral Systems",
-        goal: "Viral growth.",
-        concept: "Passive referrals are luck. Active referrals are a system. Creating a 'Referral Partner' agreement with complementary businesses.",
-        content: "If you sell Web Design, partner with SEO agencies. If you sell HR Consulting, partner with Recruiters. Share the wealth (10% commission).",
+        title: "Referral Systems: The 'Channel Partner'",
+        goal: "Viral growth from other businesses.",
+        concept: "Passive referrals (waiting for friends) are luck. Active referrals (Channel Partners) are a business. Find businesses that sell to your client *before* or *after* you.",
+        content: "The Deal: 'If you refer a client to me, I will give you 10% of the first month, OR I will give your client a 10% discount in your name (making you the hero).' \n\nExamples: Web Designers + SEOs. Accountants + Financial Planners.",
         action: "Reach out to 3 potential 'Channel Partners'.",
-        prompt: "Draft a partnership proposal email to a complementary business owner."
+        prompt: "Draft a partnership proposal email to a complementary business owner (e.g., a Web Dev Agency) proposing a referral swap."
     },
     {
         day: 59,
         phase: 4,
-        title: "Financial Review: Profit First",
-        goal: "Keep what you make.",
-        concept: "Revenue feeds the ego; Profit feeds the family. Implement 'Profit First'. Take your profit % out FIRST, then spend what is left.",
-        content: "Review your P&L. Cut the 'Zombie Subscriptions'. Check your margins. Are you actually making money on that $5k project after hours/expenses?",
+        title: "Financial Review: The 'Profit First' System",
+        goal: "Don't just make money. Keep it.",
+        concept: "Revenue feeds the ego; Profit feeds the family. Most consultants spend what they see in the bank. \n\nThe Rule: Open 2 accounts. 1. Operating (Expenses). 2. Profit (Owner Pay). Every deposit gets split immediately (e.g., 50% to Profit).",
+        content: "The 'Zombie Audit': Review your credit card statement. Cancel every SaaS tool you haven't logged into in 30 days. It's usually $500/mo of waste.",
         readingList: [
             { type: "Book", title: "Profit First", author: "Mike Michalowicz", link: "A system to ensure you are always profitable." }
         ],
-        action: "Conduct a '90-Day Financial Review'.",
-        prompt: "Create a checklist for a Monthly Business Review (MBR) to track revenue, expenses, and profit margins."
+        action: "Conduct a '90-Day Financial Review'. Calculate your true Net Profit.",
+        prompt: "Create a checklist for a Monthly Business Review (MBR) to track Revenue, Expenses, Profit, and Churn."
     },
     {
         day: 60,
         phase: 4,
-        title: "The Next 60 Days: CEO Mode",
-        goal: "Graduate from the program.",
-        concept: "You are no longer a 'starter'. You are an operator. Your focus shifts from 'Validation' to 'Scale'.",
-        content: "The Flywheel: 1. Marketing (Leads). 2. Sales (Cash). 3. Delivery (Results). 4. Retention (LTV). Repeat forever.",
-        illustration: "The Bamboo Tree. You spent 60 days watering the roots (Foundation). Now the tree shoots up 90 feet.",
-        action: "Plan your next quarter's revenue goal.",
-        prompt: "Write a 'Letter to Myself' dated 1 year from now. Describe the business, the revenue, and the lifestyle."
+        title: "Graduation: The CEO Mindset",
+        goal: "Transition from 'Freelancer' to 'Founder'.",
+        concept: "You have completed 60 Days. You have an Offer, a Sales System, and a Delivery Engine. You are no longer 'trying' to consult. You are a Consulting Business. \n\nThe Shift: Stop asking 'How do I do this?'. Start asking 'WHO can do this for me?'.",
+        content: "Next Steps: 1. Hire more VAs. 2. Raise prices by 20% for the next cohort. 3. Build a digital product (Course). \n\nCongratulations. You are free.",
+        illustration: "The Butterfly. The caterpillar (Employee) consumes. The chrysalis (The last 60 days) is the struggle. The butterfly (Founder) flies.",
+        action: "Celebrate. You built this.",
+        prompt: "Write a 'Letter to Myself' dated 1 year from today. Describe exactly what my business looks like (Revenue, Team, Hours worked)."
     }
 ];
